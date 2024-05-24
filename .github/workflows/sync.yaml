@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # every 30 minutes
+    - cron: "*/5 * * * *" # every 5 minutes
   workflow_dispatch: # on button click
 
 jobs:
@@ -12,4 +12,4 @@ jobs:
       - uses: tgymnich/fork-sync@v1.8
         with:
           base: master
-          head: upstream
+          head: master
