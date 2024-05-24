@@ -12,4 +12,4 @@ jobs:
       - uses: tgymnich/fork-sync@v1.8
         with:
           base: master
-          head: master
+          head: upstream
