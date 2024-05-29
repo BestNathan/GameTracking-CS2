@@ -1,0 +1,19 @@
+name: Sync Fork With Github Commands
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" # every 5 minutes
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.5
+        with:
+          ref: master
+      - run: |
+          git remote add upstream git@github.com:SteamDatabase/GameTracking-CS2.git
+          git fetch upstream master
+          git merge upstream/master
+          git push origin master
