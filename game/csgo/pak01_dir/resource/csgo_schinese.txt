@@ -27856,6 +27856,7 @@
 
 		
 		"SFUI_Map_Type_Title"					"<b>地图类型：</b>"
+		
 		"SFUI_Maps_In_Group_Title"				"<b>地图组包括：</b>"
 		"SFUI_Missions_In_Group_Title"			"<b>可用任务：</b>"
 		"SFUI_Map_Tooltip_Desc_Operation"  		"这是一张社区制作的地图。\n\n<font color='#8DB2D8'>当前大行动期间，这个地图组将在官方匹配中向所有玩家开放。</font>"
