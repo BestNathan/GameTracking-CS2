@@ -583,6 +583,7 @@ Animation Bone Flags
 Animation Configuration File
 Arms
 Arranging line charts by length
+Attachments
 Attempted to add two format updaters with the same file format (%s)!\n
 Attempted to add two legacy updaters with the same file format (%s)!\n
 Attempted to add two serializers with the same file encoding (%s)!\n
@@ -599,6 +600,7 @@ BakeLightProbeImage_Dilate(), C:\buildworker\csgo_rel_win64\build\src\utils\vrad
 Binary
 Binary (deterministic sequential ids)
 Binary: Element uses unknown element type %s\n
+Body
 BrowInV
 Build: %s (SIMD: %dx fp32)\n
 C:\buildworker\csgo_rel_win64\build\_build_\utils\vrad3\_vpc_vrad3\default\win64\_msvc_\Retail\vrad3.pdb
@@ -1180,6 +1182,7 @@ R channel not found!\n
 R<Xb
 RTLightmap
 Radius Random
+Radius Scale
 Random Cull
 Randomly Flip Yaw
 Ray trace world build failed; skipping rendering\n
@@ -1251,6 +1254,7 @@ Totals
 Trail Length Random
 TriangleArea
 TriangleListForThreadGroup
+Triangles
 Tried to rename from '%s' to '%s', but '%s' already exists\n
 Unable to create unknown element %s!\n
 Unable to determine mod from file "%s"!\n
@@ -1381,6 +1385,7 @@ attributes
 audioTarget
 autoTime
 auto_time
+axis
 axisSystem
 background
 backgroundMap
@@ -1421,6 +1426,7 @@ box_maxs
 box_mins
 boxproject_maxs
 boxproject_mins
+brightness
 brightness_units
 brightnessscale
 cable_static
@@ -1444,6 +1450,7 @@ collisionmesh
 color log
 color$0
 color$0Indices
+color1
 color255
 color_array
 color_blue
@@ -1516,6 +1523,12 @@ drawGameRenderablesMask
 drawToolRenderablesMask
 durationTime
 e>Cu
+eFast
+eMoveWithGait
+eSlow
+eTeleport
+eWait
+eWaitFacing
 element
 elementList
 element_array
@@ -1541,6 +1554,7 @@ f %u/%u %u/%u %u/%u\n
 facial_animation
 fadeIn
 fadeOut
+falloff
 falloff_left
 falloff_right
 fast_strobe
@@ -1629,6 +1643,7 @@ instance_file
 instance_parm
 instance_variable
 int_array
+intensity
 invalid string_view position
 invalid vector subscript
 irradiance
@@ -1787,6 +1802,9 @@ maxThrust
 max_thrust
 maya
 meshUtilsKeyValues
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 mesh_file
 mesh_id
 meshes[ i ] != nullptr
@@ -1839,6 +1857,7 @@ npcclass
 numTimeSteps
 o1?N
 ofA?
+offset
 offsetTime
 oidnCommitDevice
 oidnCommitFilter
@@ -1870,6 +1889,7 @@ ortholightwidth
 oscillate_scalar
 oscillate_vector
 outerconeangle
+output
 ownerlog
 pEnd->x <= g_LightProbeGrid.NumCellsX()
 pEnd->y <= g_LightProbeGrid.NumCellsY()
@@ -1893,6 +1913,7 @@ path_trace_triangles_gpu_shutdown
 path_trajectory
 pattern
 pc64 Mar 11 2026 13:43:32
+physics
 physicsSimplificationError
 physicsSimplificationOverride
 pinEnabled
@@ -1917,6 +1938,7 @@ postion_lock_to_controlpoint
 postprocessing
 prefab_has_runtime_entity_by_default
 prefab_root
+preset
 presetGroups
 presetRemap
 presets
@@ -2006,6 +2028,7 @@ selectedControls2
 selectionGroups
 semanticName
 semantic_index
+sequence
 sequence_random
 sequential position along path
 sessionSettings
@@ -2063,6 +2086,7 @@ soft_x
 soft_y
 sort_test_gpu
 sort_test_gpu succeeded.\n
+sound
 spawnFlags
 spawnflags
 specificImpulse
@@ -2107,6 +2131,7 @@ texcoord
 texcoord$0
 texcoord$0Indices
 text_block
+texture
 textureCoordinates
 textureCoordinatesIndices
 textureFrame
@@ -2156,6 +2181,7 @@ vector2_array
 vector3_array
 vector4_array
 velTolerance
+velocity
 velocity_random
 velocity_tolerance
 vertexFormat

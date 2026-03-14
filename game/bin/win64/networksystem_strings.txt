@@ -517,6 +517,7 @@ ConnectToHostedDedicatedServer(%s) failed\n
 Connected loopback %s=%x@%s <-> %s=%x@%s\n
 Constructing fake local field from metadata %s::%s in %s\n
 Couldn't resolve offset %u in %s at path (%d = '%s')\n
+Count
 CreateHostedDedicatedServerListenSocket for socket '%s' failed /+/ port %u vport %d\n
 CreateReplayCompatSerializerFromMeta creating fake serializer for %s\n
 Created poll group for socket '%s'\n
@@ -617,6 +618,7 @@ Include/Exclude reasons for field %s::%s:\n
 InitFakeField
 InitFakeField:  Couldn't find schema lookup for '%s' of type '%s'\n
 InitFakeField:  Parser function returned false for '%s' of type '%s'\n
+Invalid
 Invalid AVG argument '%s'\n
 Invalid MAX argument '%s'\n
 Invalid PCT argument '%s'\n
@@ -737,9 +739,14 @@ Number of CFieldPath::Path_t      :  %d\n
 Number of CFieldPaths(Reconstruct):  %d\n
 Number of CSerializedEntities     :  %d\n
 OOPVS
+OOPVSUpdates_Count
+OOPVSUpdates_Default
+OOPVSUpdates_OptIn
+OOPVSUpdates_OptOut
 Obtained direct RTT measurements to relays in %d POPs.  Closest %d are:\n
 Opened Steam Net Connection on socket '%s' to %s, connection %s\n
 Order,'From','To',Bits\n
+OutOfPVSUpdates_t
 OutSeqNumAck
 Overrides IP for multihomed hosts
 P08@Jp\v
@@ -1003,6 +1010,8 @@ cmd_info
 codegen m_SortedByDepthkill[%i] mismatch, found %d instead of %d entries\n
 codegen tbd\n
 context(0x%p) 
+coord
+coord_integral
 create_poll_group
 data class type name
 data_bits
@@ -1089,6 +1098,8 @@ m_bRequiresPointerIndirection
 m_callbackType
 m_changeCallback
 m_delegate
+m_flMaxValue
+m_flMinValue
 m_nArrayCount
 m_nArrayStride
 m_nBitCount
@@ -1098,6 +1109,7 @@ m_nInheritanceDepth
 m_nMemoryOffset
 m_nNetworkDataType
 m_nNetworkEncodeFlags
+m_nNumComponents
 m_nOOPVSFieldUpdates
 m_nOutOfPVSUpdates
 m_nQueuedDataSize
@@ -1129,6 +1141,7 @@ m_priority
 m_symContainingType
 m_symFieldName
 m_symFieldType
+m_target
 m_unEncoderDataOffset
 mark all recursively (%s)
 marked %s by user group %s
@@ -1242,6 +1255,7 @@ previous only
 pri(%u)
 problem detected locally
 qangle_pitch_yaw
+qangle_precise
 records
 regex
 regex_error

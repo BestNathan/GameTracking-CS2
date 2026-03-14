@@ -6325,6 +6325,7 @@ Inexact
 Infinity
 InstalledLocales
 Insufficient storage
+Invalid
 Invalid context
 Invalid operation
 KOI8-R
@@ -6368,6 +6369,7 @@ Rounded
 RuleBasedTransliteratorIDs
 Rules
 Second
+Sequence
 SetThreadStackGuarantee
 Shift_JIS
 Short
@@ -6661,6 +6663,7 @@ islamic-rgsa
 islamic-tbla
 islamic-umalqura
 iso8601
+item
 item_per_mole
 izrule_clone_73
 izrule_close_73
@@ -6820,6 +6823,7 @@ numbers=
 numbers=jpanyear
 numeric
 oblique
+offset
 or-narrow
 or-short
 other
@@ -6969,6 +6973,7 @@ tablespoon
 tailoring primary after ignorables not supported
 tailoring quaternary after tertiary ignorables not supported
 tailoring relative to an unassigned code point not supported
+target
 target string = %vb 
 target string = %vh 
 teaspoon

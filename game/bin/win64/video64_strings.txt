@@ -2096,6 +2096,7 @@ Banco Credito de Peru
 Banco Nacional de Costa Rica
 Banco Poplar
 Banco do Brasil Online
+Bandwidth
 Bandwidth Exceeded
 Bank Asya
 Bank Transfer (Degica)
@@ -2114,6 +2115,7 @@ Billing name is invalid because it looks like it contains credit card data
 Biometric Info
 BitCash
 Bitcoin
+Blocked
 Blocked because user is not a commercial partner
 Blocked by U.S. government regulations
 Bnl1l
@@ -2692,6 +2694,7 @@ Can't dump heaps until you've walked them!\n
 Can't see w/o segment size
 Can't seek w/o init segment size
 Can't use datagrams with SSL connections, SSL requires reliability.
+Canceled
 Canceled by new transaction
 Cancelled by Admin
 Cancelled by Friendly Fraud Lock
@@ -2827,6 +2830,7 @@ Convars
 Convenient Store Voucher
 ConvertFiberToThread
 ConvertThreadToFiber
+Cookie
 Copyright Violation
 Corrupt depot cache
 Corrupt disk
@@ -3066,6 +3070,7 @@ Data Exploit
 Date
 DcO/lcK+hSK
 Debit Card (Nodwin)
+Debug
 DebugBreak
 Decipher Only
 Default heap
@@ -3103,6 +3108,7 @@ DirName:
 DirectIP.dll
 Directory
 Directory not empty
+Disabled
 DisconnectEx function pointer is NULL.  Was PlatformSocketsInit called?
 DisconnectPlatformSocket
 Disconnected By Remote Host
@@ -3113,6 +3119,7 @@ Discussion Posts
 Disk Full
 Disk read failure
 Disk write failure
+Distance
 Do Not Revive
 Does not own required app
 Domain
@@ -3279,6 +3286,7 @@ EECDH+AESGCM+AES128:EECDH+AESGCM:EECDH+AES128:EECDH+AES:EECDH+3DES:AES128+kRSA:A
 EE\fl~5
 EHTTPMethod
 EHTTPStatusCode
+ELEMENT
 EMPTY
 EMsg
 EMsg %d registered multiple times.
@@ -3459,6 +3467,7 @@ Expected '%s', found '%s'
 Expected k_EConnectionStateConnecting but got %d - shouldn't call ConnectFailed?
 Expected to be in SegmentBase when finding an Initialization section
 Expecting: 
+Experimental
 Expired
 Expired Login Auth Code
 Expired card
@@ -3802,7 +3811,10 @@ IEw!
 IGNORE
 IMPLICIT
 IMetricsFactory
+INCLUDE
+INT32
 INT64
+INVALID
 INVALID_HANDLE_VALUE: ERROR_SHARING_VIOLATION
 INVALID_SOCKET != hSocket
 INVALID_SOCKET != m_hSocket
@@ -3898,6 +3910,7 @@ Internal Server Error
 Internal error
 International Organizations
 Interrupted function call
+Invalid
 Invalid %s declaration
 Invalid CD-Key
 Invalid CEG Submission
@@ -3975,6 +3988,7 @@ Issuer certificate lookup error
 Italian
 Itau Online
 Item or entry has been deleted
+Items
 Items_Mtx
 Items_ReadyToUse
 J0X|
@@ -4267,6 +4281,7 @@ Netscape Revocation Url
 Netscape SSL Server Name
 Netscape SSL server
 Netscape Server Gated Crypto
+Network
 Network send exceeded
 News
 Next packet in multi-packet UDP message is too large and would exceed initially allocated buffer
@@ -4314,6 +4329,7 @@ Non Repudiation
 Non-Authoritative Information
 NonMembers
 Nonce
+Normal
 Norwegian
 Not Acceptable
 Not After: 
@@ -4351,6 +4367,7 @@ O44h\
 O:t\vg
 O@RJ
 OBJ lib
+OBJECT
 OBJECT DESCRIPTOR
 OBJ_NAME_new_index
 OBJ_add_object
@@ -4827,6 +4844,7 @@ Priority Paused
 Priority Up
 Priority User Initiated
 PrivacyProvider.dll
+Private
 Private-Key
 Private-Key: (%d bit, %d primes)\n
 PrivateKey
@@ -4991,6 +5009,7 @@ RX\r
 R\vpP
 RackSystem
 Raid
+Range
 Range request upper bound is less than lower bound
 RankedByAveragePlaytimeTrend
 RankedByBanContentCheck
@@ -5471,6 +5490,7 @@ Software engine support
 Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
 Software\Microsoft\Windows\CurrentVersion\Run
 Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+Solo
 Someone called ClearWritingMinidump without holding the minidump lock.
 Someone called SetWritingMinidump without holding the minidump lock.
 Spamming
@@ -5520,6 +5540,7 @@ Subject Information Access
 Submiting threaded work item for HTTP request to %s\n
 Subscribed
 Subscribers
+Succeeded
 Success! http%s://%s%s\n
 SuggestedFriend
 Suite B: cannot sign P-384 with P-256
@@ -5908,6 +5929,7 @@ UDPSocket::BSend received error %d (%s) from WSASendTo\n
 UGC Image
 UI lib
 UI routines
+UINT32
 UINT64
 UI_construct_prompt
 UI_create_method
@@ -5961,6 +5983,7 @@ Undefined namespace prefix '%s'
 Unexpected end of string.
 Unexpected error
 Unexpected result from V_SplitString() 
+Uninitialized
 Uninstalled
 Uninstalling
 UnionPay
@@ -9246,6 +9269,7 @@ index too small
 indexRange
 indirectCRL
 infinite
+info
 info.m_pReplacementString == 0
 info.m_pTreeInUseConnections->Element(iIndexConnection) == pConnection
 info.m_pTreeWaitingConnections->Element(iIndexConnection) == pConnection
@@ -9259,6 +9283,7 @@ initial wait
 initialization
 initialization error
 initials
+input
 input not initialized
 input not reduced
 install
@@ -11058,6 +11083,7 @@ m_strCertPEMFile
 m_strCodecs
 m_strContentType
 m_strDomain
+m_strFileName
 m_strFilename
 m_strFilenameToUnlink
 m_strFilenameToUpdateLRUFor
@@ -11067,6 +11093,7 @@ m_strInit
 m_strLastUserProxyHostString
 m_strMedia
 m_strMimeType
+m_strName
 m_strPath
 m_strPathCertPEMFile
 m_strPathPrivKeyPEMFile
@@ -11193,6 +11220,7 @@ max-stale
 maxLen == 0 || pDest != NULL
 max_early_data
 max_protocol
+maximum
 maxmem_bytes
 maxsize=
 md bio init error
@@ -11240,6 +11268,7 @@ mime-mhs-headings
 mimeType
 min-fresh
 min_protocol
+minimum
 minimumUpdatePeriod
 minsize=
 minute
@@ -12939,6 +12968,7 @@ telexNumber
 teliasonera
 telus
 tencent
+test
 text/html
 text/html,*/*;q=0.9
 text:
@@ -13431,6 +13461,7 @@ unsupported ssl version
 unsupported status type
 unsupported type
 unsupported version
+unused
 unwrap error
 unwrap failure
 upgrade

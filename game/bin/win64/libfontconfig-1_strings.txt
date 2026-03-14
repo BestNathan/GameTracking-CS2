@@ -83,6 +83,7 @@ BcSX
 Best score
 Bigelow
 Bitstream
+Bool
 Broken pipe
 CACHEDIR.TAG
 CANO
@@ -114,13 +115,17 @@ DYNA
 Delete
 DeleteAll
 Directory not empty
+Divide
 Domain error
 Double
+ELEMENT
 EMPTY
 ENTITIES
+ENTITY
 EPSN
 E\f\nBP
 Edit %s 
+Equal
 Exec format error
 Expression doesn't take any effects for delete and delete_all
 FC_DEBUG
@@ -362,6 +367,7 @@ FileTimeToLocalFileTime
 Filename too long
 Final font pattern:\n
 First font 
+Floor
 Floor 
 FlushProcessWriteBuffers
 Font %d 
@@ -407,6 +413,7 @@ IDREFS
 IGNORE
 IMPLIED
 IMPR
+INCLUDE
 ISO-8859-1
 Illegal byte sequence
 Improper link
@@ -414,6 +421,7 @@ Inappropriate I/O control operation
 Input/output error
 International Typeface Corporation
 Interrupted function call
+Invalid
 Invalid argument
 Invalid seek
 Iorsh
@@ -485,12 +493,14 @@ R@\tScanning file %s...
 RELATIVE_SETWIDTH
 REQUIRED
 RICO
+Range
 Raw pattern:\n
 Read-only file system
 Resource deadlock avoided
 Resource device
 Resource temporarily unavailable
 Result too large
+Round
 Round 
 S5|D~
 SETWIDTH_NAME
@@ -748,6 +758,7 @@ compare
 complex_ features in this font: %s\n
 condensed
 conf.d
+contains
 culmus
 decorative
 delete_all
@@ -835,6 +846,7 @@ impress
 include
 incomplete markup in parameter entity
 index
+info
 interleaf
 invalid attribute '%s'
 invalid binding "%s"
@@ -993,6 +1005,8 @@ stylelang
 superblack
 superbold
 syntax error
+target
+test
 text declaration not well-formed
 thin
 ti-er
@@ -1028,6 +1042,7 @@ vRQ>
 vbgr
 verticallayout
 vrgb
+weight
 write cache
 wrong number of matrix elements
 xfree86

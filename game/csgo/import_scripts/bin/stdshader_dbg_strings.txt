@@ -103,6 +103,7 @@ AYl=
 A]?VJ
 Ai0T
 AiFC.
+Animation Frame
 Animation Frame for $flashlight
 Base Texture Texcoord Transform
 Base Texture with lighting built in
@@ -242,6 +243,7 @@ bump map
 c:\buildslave\csgo_trunk_win32\build\src\materialsystem\stdshaders\Release_dbg\stdshader_dbg.pdb
 c?e2
 center .5 .5 scale 1 1 rotate 0 translate 0 0
+color2
 cu\fq7
 debugdrawdepth_ps20
 debugdrawdepth_ps20b
@@ -299,6 +301,7 @@ pShaderAPI->GetCurrentNumBones() > 0
 pnJ=
 qo-W>
 r7Yr7=
+r_flashlightbrightness
 sU0&?W
 s_pShaderAPI->GetCurrentNumBones() > 0
 shadertest/BaseTexture
@@ -320,6 +323,7 @@ unlitgeneric_ps20b
 unlitgeneric_ps30
 unlitgeneric_vs20
 unlitgeneric_vs30
+unused
 vECd
 va1+
 vertexlitgeneric_flashlight_vs20

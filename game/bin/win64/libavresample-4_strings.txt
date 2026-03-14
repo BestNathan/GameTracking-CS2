@@ -22,12 +22,14 @@ AudioData
 Blackman Nuttall Windowed Sinc
 C:\buildslave\libav_win32\build\dev\libavresample\libavresample-4.pdb
 Center Mix Level
+Cubic
 Cutoff Frequency Ratio
 Dither Method
 Dolby
 Dolby Pro Logic II
 Error reallocating resampling buffer\n
 FMA4
+Filter Type
 Floating-Point
 Force Resampling
 GetEnabledXStateFeatures
@@ -136,12 +138,14 @@ error reallocating dst\n
 error reallocating output\n
 error setting mix matrix\n
 filter_size
+filter_type
 fltp
 force_resampling
 in_buffer
 in_channel_layout
 in_sample_fmt
 in_sample_rate
+input
 internal_sample_fmt
 invalid NULL pointer for src[%d]\n
 invalid channel count: %d\n
@@ -169,6 +173,7 @@ out_buffer
 out_channel_layout
 out_sample_fmt
 out_sample_rate
+output
 phase_shift
 rectangular
 remap channels during in_convert\n

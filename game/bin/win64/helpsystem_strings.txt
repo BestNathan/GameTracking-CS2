@@ -1570,6 +1570,7 @@ Cannot tabify dock - sibling QDockWidget not found (%s)
 CapToggle
 Caps
 CheckState
+Children
 Class
 Clear History
 ClearInputHistory
@@ -1593,6 +1594,7 @@ Debuger Break With Widget
 Debugger break with widget: 0x%p\n
 DelayedSetFilter
 Delete Widget
+Description
 Designable
 Discard your changes to this help entry?
 Discard?
@@ -1663,6 +1665,7 @@ Home
 HoverItemChanged
 I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
 IBindTarget
+ICON
 IDynamicWidgetHost
 IHelpChangeListener
 IHelpDisplayWidget
@@ -1703,6 +1706,7 @@ LT?pixel@QImage@@QEBAIHH@Z
 L\r?hitButton@QToolButton@@MEBA_NAEBVQPoint@@@Z
 L\t?canDropMimeData@QAbstractItemModel@@UEBA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
 L_?toImage@QPixmap@@QEBA?AVQImage@@XZ
+Left
 MENU
 MMouse
 MMouseDoubleClick
@@ -1729,6 +1733,7 @@ N?height@QImage@@QEBAHXZ
 N?height@QPixmap@@QEBAHXZ
 N?index@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 NO COMMAND TARGET
+NONE
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 N\v?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
 Never close the group automatically (used to indicate an error like the process exiting unexpectedly)
@@ -1780,6 +1785,7 @@ OnTreeHoverChanged
 OnTreeMenuRequested
 OnTreeSelectionChanged
 OpenMutexA
+Orientation
 P?isValid@QColor@@QEBA_NXZ
 P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
@@ -1788,6 +1794,7 @@ PerformHelpAction
 PgDn
 PgUp
 Policy
+Position
 Preferred
 Properties
 Property '%s.%s' not writable
@@ -1840,6 +1847,7 @@ R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@X
 Really delete this widget?<br><br>***THIS MAY CRASH THE PROGRAM***<br>
 Reloading...
 Resettable
+Right
 S?movePosition@QTextCursor@@QEAA_NW4MoveOperation@1@W4MoveMode@1@H@Z
 S?openUrl@QDesktopServices@@SA_NAEBVQUrl@@@Z
 STANDIN: %1
@@ -1871,6 +1879,7 @@ T?pos@QDropEvent@@QEBA?AVQPoint@@XZ
 T?pos@QMouseEvent@@QEBA?AVQPoint@@XZ
 TW?restoreOverrideCursor@QGuiApplication@@SAXXZ
 T\t?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
+Text Color
 Tokens
 ToolBarArea
 Track Mouse & Focus
@@ -2173,6 +2182,7 @@ i\f?forward@QTextBrowser@@UEAAXXZ
 i\r?enumerator@QMetaProperty@@QEBA?AVQMetaEnum@@XZ
 i\r?horizontalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
 i\v?event@QTableWidget@@MEAA_NPEAVQEvent@@@Z
+info
 italic
 italic text
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
@@ -2189,7 +2199,9 @@ long_help_preview
 long_reference_help
 loud
 m_Bindings
+m_Command
 m_Context
+m_Input
 m_InputMacros
 menu
 menuAction
@@ -2205,6 +2217,7 @@ o\v?event@QTreeWidget@@MEAA_NPEAVQEvent@@@Z
 orientation
 pCurrentFocusWidget
 pFilter
+pItem
 pPrevFocusWidget
 pV?read@QImageReader@@QEAA?AVQImage@@XZ
 p\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z

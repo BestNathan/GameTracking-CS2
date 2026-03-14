@@ -543,6 +543,7 @@ CMorph::BeginMorphAccumulation
 CMorph::EndMorphAccumulation
 CMorph::RenderMorphWeights
 COLORCORRECTION_VERSION_1
+CPU Level - Default: High
 CProtectedDataObjectExternal:: New item %p length %d Item %d \n
 CTexture::AllocateTextureHandles "%s" attempted to allocate 0 frames of texture handles!
 CTexture::GetTextureHandle(): nFrame is < 0!\n
@@ -651,6 +652,7 @@ Forcing queued mode off!\n
 Freeing optimal read buffer of %d bytes @ 0x%p\n
 G&iC
 G8D>
+GPU Level - Default: High
 GPU<1
 GPU<2
 GPU<3
@@ -729,6 +731,7 @@ MaterialSystem_Interface_t::UpdateLightmap lightmapPageID=%d out of range\n
 MemAllocScratch
 MemFreeScratch
 MemOutOfMemory
+Memory Level - Default: High
 MipGen
 MkK?
 Model textures
@@ -1042,6 +1045,7 @@ fmodstudio.dll
 g_PerfStats
 g_tm_api
 gameconsole
+gpu_mem_level
 grey
 greyalphazero
 groupName
@@ -1218,6 +1222,7 @@ mat_vsync
 matchmaking.dll
 material "%s" not found.\n
 material_proxy_state
+materials
 materials/
 materials/%s
 materials/%s.vmt
@@ -1227,6 +1232,7 @@ materialsystem.dll
 matrix: %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
 maxheight
 maxwidth
+mem_level
 mempool.cpp
 mipSkipCount
 models/player/custom_player/econ/
@@ -1246,6 +1252,7 @@ msssrs.flt
 mtlName
 no ']' or '}' found in vector key in ParseVectorFromKeyValueString\n
 no_composite
+normalize
 normalizesigned
 np?z 
 numFrames

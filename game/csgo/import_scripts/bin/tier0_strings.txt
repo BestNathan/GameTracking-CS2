@@ -509,6 +509,7 @@ MinidumpSetUnhandledExceptionFunction
 MoveFileExUTF8
 MoveFileExW
 MoveFileUTF8
+Occlusion
 Other_Model_Rendering
 Out of thread ids. Decrease the number of threads or increase MAX_THREAD_IDS\n
 Out of thread local storage!\n
@@ -595,6 +596,7 @@ ShouldUseNewAssertDialog
 ShutdownPME
 Shutting down telemetry.\n
 Small block heap is corrupt (primary)\n 
+Sound
 StackToolsNotify_LoadedLibrary
 StackTraceDatabaseSizeInMB
 Static_Prop_Rendering

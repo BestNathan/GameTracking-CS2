@@ -13043,6 +13043,7 @@ AbcGeom_PolyMesh_v1
 AbcGeom_SubD_v1
 AbcGeom_Xform_v3
 AbcMaterial_Material_v1
+Absolute
 Absolute From Camera
 AbsoluteMode
 AccessMode
@@ -13069,6 +13070,7 @@ Add your custom properties here.
 AddOp
 Additional Scale Factor
 AdditionalIncludePaths
+Additive
 Adds content to the scene.
 Adds new content and updates only animation on matching objects in the scene.
 AdvOptGrp
@@ -13093,6 +13095,7 @@ Air
 Alembic 
 Alembic ABC (*.abc)
 Alembic Cache file write is not supported
+Alias
 Alias OBJ (*.obj)
 Alias_Cache_File
 All markup of the conditional section is not in the same entity\n
@@ -13222,6 +13225,7 @@ AudioLayer::
 Aur 
 Authentication Failed
 Author
+Auto
 Auto Axis Conversion
 Auto tangents only
 AutoAxis
@@ -13315,10 +13319,12 @@ BasicLatin
 Begin Field error: last field not closed
 Begin/End keyword expected\n
 BeginWriteAt not called
+Bezier
 Bezier Fit/Key Reducer
 BezierQuadric
 Binary
 BinaryData
+Bind Pose
 BindPose
 BindPose - Incomplete BindPose [link nodes parents]
 BindPose - Incomplete BindPose [link nodes]
@@ -13341,6 +13347,7 @@ Biped
 BitRate
 Blank needed after '<?xml'\n
 Blank needed here\n
+Blend
 BlendMode
 BlendModeBypass
 BlendModes
@@ -13357,6 +13364,7 @@ Bone has no length\n
 Bone has no name\n
 BoneLengthAxis
 BoneLengthAxis Y\n
+Bool
 BopomofoExtended
 Both
 BottomBarnDoor
@@ -13722,6 +13730,7 @@ Cached_Effect
 CalculateLegacyShapeNormal
 CalibrationUnits
 CalibrationUnits mm\n
+Camera
 Camera 
 Camera Focal Length converted to Field Of View
 Camera Index
@@ -13799,6 +13808,7 @@ Cannot remove zero scaling from matrix.
 Cannot retrieve deformer
 Cannot set non-matrix op from Abc::M44d
 Cannot update mismatched op-type in already-setted 
+Capsule
 Cardinal
 CastLight
 CastLightOnObject
@@ -13806,10 +13816,12 @@ CastShadows
 Casts Shadows
 Catalog 
 Category
+Centimeters
 Cfmod
 ChannelInterpretation
 ChannelName
 ChannelType
+Channels
 Char 0x%X out of allowed range\n
 Char 0x0 out of allowed range\n
 Char out of XML range\n
@@ -13830,8 +13842,10 @@ ChestTOffset
 ChestTOffsetX
 ChestTOffsetY
 ChestTOffsetZ
+Children
 ChunkType
 ChunkUnique
+Circle
 Circular reference to the attribute group '%s' defined
 Circular reference to the model group definition '%s' defined
 Clamp
@@ -13872,6 +13886,7 @@ CombiningDiacriticalMarks
 CombiningDiacriticalMarksforSymbols
 CombiningHalfMarks
 CombiningMarksforSymbols
+Comment
 Comment doesn't start and stop in the same entity\n
 Comment must not contain '--' (double-hyphen)
 Comment not terminated \n<!--%.50s\n
@@ -13974,6 +13989,7 @@ Could not open file:
 Could not use the given ostream.
 Couldn't find end of Start Tag %s line %d\n
 Couldn't find end of Start Tag %s\n
+Count
 CprData::getPropertyHeader: 
 CpwImpl::getPropertyHeader: 
 Create Reference Node
@@ -14029,6 +14045,7 @@ CtrlResistRightElbow
 CtrlResistRightKnee
 CtrlSpineStiffness
 Cube
+Cubic
 Cubic Reflection Mapping Parameters: \n
 Cubic|
 Culling
@@ -14056,6 +14073,7 @@ CurveFilterCstKeyRedSPrec
 CurveFilterCstKeyRedTPrec
 CurveFilterSamplingRate
 CurveNode does not have 3 childs
+Custom
 Custom Format
 Custom unit
 CustomFrameRate
@@ -14143,6 +14161,8 @@ DL_SPOT_ROLL
 DOCTYPE improperly terminated
 DPFPH
 DUMMY
+Damping
+Darken
 Darkercolor
 DataFrameRate
 DataFrameRate %d\n
@@ -14181,11 +14201,13 @@ Deformer
 Deformer::
 DegreeToRadian
 Degrees
+Delay
 DepthOfField
 Desc
 DescAbsoluteURL
 DescRelativeURL
 DescTAG
+Description
 DestinationCount
 DestinationObject
 Detected a cycle in %s references\n
@@ -14203,10 +14225,12 @@ Diffuse: r: %f, g: %f, b: %f\n
 DiffuseColor
 DiffuseFactor
 Dimension
+Dimensions
 Dingbats
 Direct
 DirectX
 Directory not empty
+Disabled
 Disk
 DiskAsync
 Displacement
@@ -14225,6 +14249,8 @@ DisplaySafeAreaOnRender
 DisplaySubdivisions
 DisplayTurnTableIcon
 Dissolve
+Distance
+Divide
 Document
 Document element not expected\n
 Document is empty
@@ -14254,6 +14280,7 @@ Duplicate %s
 Duplicate key-sequence %s in %s
 Duplicate names found in 
 Duplicate value '%s' of simple type 'xs:ID'
+Duration
 Duration is zero
 DynaVision
 DynamicScaleConversion
@@ -14275,6 +14302,7 @@ ENTITIES
 ENTITIES attribute %s reference an entity "%s" of wrong type\n
 ENTITIES attribute %s reference an unknown entity "%s"\n
 ENTITIES\n
+ENTITY
 ENTITY attribute %s reference an entity "%s" of wrong type\n
 ENTITY attribute %s reference an unknown entity "%s"\n
 EOF\n
@@ -14293,6 +14321,7 @@ Edge
 EdgeCrease
 EdgeIndexArray
 Edges
+Effector
 Either the attribute 'base' or a <simpleType> child must be present
 Either the attribute 'itemType' or the <simpleType> child must be present
 Either the attribute 'memberTypes' or at least one <simpleType> child must be present
@@ -14379,6 +14408,7 @@ Entity: line %d: \n
 EntityRef: expecting ';'
 EntityValue: " or ' expected
 EntityValue: '%c' forbidden except for entities references\n
+Enum
 Environment
 ErrSyscall
 Error %d : %s\n
@@ -14787,12 +14817,14 @@ FbxVideo
 Fbx_Roo
 Fbx_Root
 Feb  1 2022
+Feet
 FieldOfView
 FieldOfViewX
 FieldOfViewXProperty
 FieldOfViewY
 FieldOfViewYProperty
 Fields
+File
 File Exists
 File Format
 File content
@@ -14838,6 +14870,7 @@ FilmTranslateY
 FilmWidth
 Film_FullFrame
 Filmbox
+Filter
 Filter Scale
 Filter Scale by Curve
 FilterScale, No key were changed by filter
@@ -15066,6 +15099,7 @@ HD(F&H(F
 HEADER\n
 HERMITE
 HIDE_TRACK_TAG
+HIERARCHY
 HI_SHADOW_BIAS
 HJI\f
 HLJ L
@@ -15104,9 +15138,11 @@ HangulSyllables
 Hard Cross
 Hardlight\t
 Hardmix
+Head
 HeadEffector
 HeadReduction
 Header not found
+Height
 Hidden
 Hierarchy not found
 HighPrivateUseSurrogates
@@ -15216,6 +15252,7 @@ INSTANCE_NAME
 INTERPCT
 INTERPOLATION
 INT_PERCENTAGE
+INVALID
 INV_BIND_MATRIX
 IN_TANGENT
 INuPatch::get()
@@ -15431,6 +15468,7 @@ Improper link
 Improper quantifier
 Inappropriate I/O control operation
 Inappropriate message buffer length
+Inches
 Include
 Include document is empty\n
 Include document root is not a grammar\n
@@ -15442,6 +15480,7 @@ Incorrect data, expected to be empty or to have a key and data
 Incorrect match of header datatype: 
 Incorrect match of schema: 
 Incorrect number of time samples specified, expected 
+Index
 Index out of range
 IndexMapping
 IndexToDirect
@@ -15655,6 +15694,7 @@ LABELS
 LAYER
 LAYER\n
 LAYER_FOG
+LEFT
 LEFTFOOT
 LEFTHAND
 LEFT_FLOOR
@@ -15681,6 +15721,7 @@ L_TARGET_NODE_TAG
 Labels
 Lambert
 Last Changed Index: 
+LastFrame
 LastSaved
 Latin-1Supplement
 LatinExtended-A
@@ -15984,6 +16025,7 @@ LightGrp
 LightMap
 LightType
 LightTypeVersion
+Lighten
 Lightercolor
 Lights
 Limb
@@ -15993,6 +16035,7 @@ Limits
 Line
 Line(
 LineVersion
+Linear
 LinearBIdeograms
 LinearBSyllabary
 Linearburn
@@ -16025,6 +16068,7 @@ LookAt
 LookAtModel
 LookAtProperty
 LookupAccountSidA
+Loop
 LowSurrogates
 Luminosity
 M3DMAGIC
@@ -16152,10 +16196,12 @@ Marker
 Markers
 MassCenterCompensation
 MasterScale
+Material
 Material parameter not supported: 
 Material::
 MaterialAssignation
 MaterialMode
+Materials
 Materials animation
 Materials assigned to mesh:\n
 Materials3ds structure contents:\n\n
@@ -16237,6 +16283,8 @@ Missing encoding in text declaration\n
 Mixed is empty\n
 MixedContentDecl : '#PCDATA' expected
 MixedContentDecl : '|' or ')*' expected
+Mode
+Model
 Model Count
 Model name "root" is only allowed for the ASF root node
 Model::
@@ -16295,6 +16343,7 @@ MusicalSymbols
 Mute
 N"P(R$T(X^^"@<
 N2(4(86: <D>><
+NAME
 NAMED_OBJECT
 NCName
 NECK
@@ -16304,6 +16353,8 @@ NMTOKEN
 NMTOKENS
 NODE_HDR
 NODE_ID
+NONE
+NORMAL
 NOTATION
 NOTATION %s is not declared\n
 NOTATION attribute %s declared for EMPTY element %s\n
@@ -16413,6 +16464,7 @@ No vertices defined in mesh
 No write permission
 NoMappingInformation
 NoSnap
+Node
 Node '
 NodeAttribute
 NodeAttribute 
@@ -16427,6 +16479,7 @@ Nonexistent GeomParam:
 Nonexistent array property: 
 Nonexistent compound property: 
 Nonexistent scalar property: 
+Normal
 NormalMap
 Normals
 NormalsIndex
@@ -16515,6 +16568,7 @@ ObjectMetaData
 ObjectMetaData::
 ObjectType
 Objects
+Occlusion
 Off-axis
 Ogawa
 Ogawa IData illegal size.
@@ -16555,6 +16609,7 @@ OpticalCenterYProperty
 OpticalCharacterRecognition
 OpticalMarker
 Order
+Orientation
 OrientationDamping
 OrientationDampingMode
 OrigDataRate
@@ -16583,6 +16638,7 @@ OuterBoundary
 OutputDirectory
 Over
 OverSampling
+Overlay
 Overscan Fit
 P$RfP
 P%luY%luM%luDT%luH%luM%.14gS
@@ -16724,6 +16780,7 @@ Password_Enable
 Patch
 Patch(
 PatchType
+Path
 PathFileType
 PathFileType\t4\t(X/Y/Z)\tKaydara\t\n
 Pb p
@@ -16739,6 +16796,7 @@ Pf4q
 PhoneticExtensions
 Phong
 Pinlight
+Pivot
 Pivot To Null
 PivotEnabled
 PivotToNulls
@@ -16771,6 +16829,7 @@ PluginProductFamily
 PluginSettings
 PluginVersionsURL
 Point Light
+Points
 PointsIndex
 Pole Vector Object
 PoleVector
@@ -16780,10 +16839,12 @@ PolygonGroup
 PolygonIndexArray
 PolygonVertexIndex
 Popping input %d\n
+Pose
 Pose::
 PoseCharacter
 PoseNode
 PoseScene
+Position
 Position From Positions
 Positions
 Post-Extrapolation
@@ -16859,6 +16920,7 @@ RAY_BIAS
 RAuto
 RClampType
 REFERENCE
+RELATIVE
 REnable
 RGB component tint
 RGB lumanence tint
@@ -16883,6 +16945,7 @@ ROFFSETZ
 ROLL
 ROLL_TRACK_TAG
 ROLL_TRACK_TAG_KEY
+ROOT
 ROTATIONSPACE
 ROT_TRACK_TAG
 ROT_TRACK_TAG_KEY
@@ -16904,6 +16967,7 @@ R\n0!5
 R\n0!f
 R\np!f
 Radians
+Range
 Rational
 Raw data size too large for current file mode
 Re-center Root Node
@@ -16992,7 +17056,9 @@ ReflectionFactor
 Reflectivity
 RegConnectRegistryA
 RegQueryValueExW
+Regular
 RelPath
+Relative
 Relative To Interest
 RelativeFilename
 RelativePrecompFileName
@@ -17164,6 +17230,7 @@ RightUpLegRollEx
 RightUpLegRollExMode
 RightUpLegRollMode
 RightWristEffector
+Roll
 RollExtractionMode
 RootBindingName
 RootNod
@@ -17173,6 +17240,7 @@ RotX
 RotY
 RotZ
 Rotate-Translate
+Rotation
 Rotation From Rotations
 Rotation Precision
 RotationAccumulationMode
@@ -17194,6 +17262,7 @@ RotationStiffnessY
 RotationStiffnessZ
 RotationUnits
 RotationUnits Degrees\n
+Round
 RrSs
 SAX compatibility mode document
 SAX.xmlSAX2AttributeDecl(%s) called while not in subset\n
@@ -17203,6 +17272,7 @@ SAX.xmlSAX2NotationDecl(%s) called while not in subset\n
 SAX.xmlSAX2NotationDecl(%s) externalID or PublicID missing\n
 SAX.xmlSAX2UnparsedEntityDecl(%s) called while not in subset\n
 SAuto
+SCALE
 SCENE
 SCL_TRACK_TAG
 SCL_TRACK_TAG_KEY
@@ -17225,6 +17295,7 @@ SHAPE_NOT_OK
 SHAPE_OK
 SHIFT-JIS
 SHIFT_JIS
+SHOW
 SI_Visibility
 SMAGIC
 SMOOTH_GROUP
@@ -17325,6 +17396,7 @@ SetFileInformationByHandle
 SetThreadStackGuarantee
 SetThreadpoolTimer
 SetThreadpoolWait
+Shader
 ShaderLanguage
 ShaderLanguageVersion
 Shading
@@ -17336,6 +17408,7 @@ ShadowColor
 ShadowIntensity
 ShadowMap
 ShadowPlanes
+Shape
 Shape %02d
 Shape %02d (Shape)
 Shape(
@@ -17368,6 +17441,7 @@ Single Chain IK
 Single Matrix
 Single backslash character
 SingleMatrix
+Skeleton
 Skin
 Skin 
 SkinningType
@@ -17405,6 +17479,7 @@ SnapOnFrames
 Softlight
 Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
 Solid line\n
+Solo
 SolverType
 Some <start> element miss the combine attribute\n
 Some defines for %s needs the combine attribute\n
@@ -17447,6 +17522,7 @@ Specular mask contents:\n
 Specular: r: %f, g: %f, b: %f\n
 SpecularColor
 SpecularFactor
+Sphere
 Sphere Map
 SphereReflexionMap
 Spheric XYZ
@@ -17464,9 +17540,11 @@ Spine6
 Spine7
 Spine8
 Spine9
+Spot Light
 SpotDistributionChooser
 Spread
 Squad
+Square
 SqueezeRatio
 SrcDocumentUrl
 SrcModelReference
@@ -17604,6 +17682,7 @@ Text element has children !\n
 Text element has namespace !\n
 Text element has no content !\n
 TextLine
+Texture
 Texture UV by Polygon
 Texture alpha
 Texture blend mode not recognized: 
@@ -18186,6 +18265,7 @@ Visibility Inheritance
 VistaVision
 Visual C++ CRT: Not enough memory to complete call to strerror.
 Vividlight
+Volume
 Volume Light
 Vtjj
 W1O\tg_?
@@ -18196,6 +18276,7 @@ Warning:
 Warning: No precomputed value available, the value was either invalid or something strange happened
 Warning: program compiled against libxml %d using older %d\n
 Warning: unknown camera aperture mode for camera: 
+Weight
 Weight must be greater than 0 (invalid data)
 WeightedNextLeft|
 WeightedRight|
@@ -18205,12 +18286,15 @@ Weld Vertices
 WeldVertices
 When Media
 While reading or writing a file the following notifications have been raised.
+Width
 Window Size
 Wire
 Wire frame size: %f\n
 Works only on rotation CurveNodes
+World
 World Rigid
 World Up Object
+WorldSpace
 WorldUpType
 WorldUpVector
 WrapModeU
@@ -18697,6 +18781,7 @@ author
 authoring_tool
 awIffBuffer::fsIndex == -1
 awIffBuffer::fsIndex >= -1
+axis
 b0U+
 b0mJ
 bP6'
@@ -18801,6 +18886,7 @@ calling xmlSchemaXPathEvaluate()
 calling xmlStreamPop()
 calling xmlStreamPush()
 calling xmlValidateQName()
+camera
 cannot allocate parser context
 cannot allocate parser context\n
 cannot convert model from pipe or memory
@@ -18822,6 +18908,7 @@ char %c\n
 charClassExpr: ']' expected
 charptr
 charval 
+child
 choice
 chunk header read
 chunk is not well balanced
@@ -18854,6 +18941,7 @@ containerTemplateName
 containerTemplatePackageName
 containerTemplatePath
 containerTemplateVersion
+contains
 content: 
 continue after stop
 contributor
@@ -18961,6 +19049,7 @@ ebcdic
 eccentricity
 edge not linked to vertex
 edgecrease
+effect
 elem info has not been cleared
 elem pop mismatch
 element
@@ -19197,6 +19286,7 @@ init_from
 initial_completeness
 initname 
 initstate: not enough state (%d bytes) with which to do jack; ignored.\n
+input
 input conversion failed due to input error, bytes %s\n
 input/output possible
 instance_animation
@@ -19213,6 +19303,7 @@ int32_t
 int64_t
 int8_t
 int_array
+intensity
 interleave
 interleave%d
 internal break
@@ -19248,6 +19339,7 @@ ishidden
 ismatte 
 isnocast 
 isnorcvshad 
+itemType
 j  "*$ &j."0(2 4j< >*@ BjJ"L(N PjX Z*\ ^jf h@l n*p rlz |(~ 
 j Bz
 j\4 X.\.^B`<^<\&b&d
@@ -19265,6 +19357,7 @@ keyref
 keyref identity-constraint
 keywords
 kfbxreader
+kill
 kilometer
 kilometers
 kilometre
@@ -19297,10 +19390,12 @@ library_visual_scenes
 libxml2 built without HTML support\n
 light
 limits
+linear
 lines
 linestrips
 link 
 link has no associated item
+list
 list type
 list type 'xs:
 list type has no item-type assigned
@@ -19474,6 +19569,7 @@ object
 objects have different number of child
 objects have incompatible topologies
 objmat3ds %smats[%i] = {\n
+offset
 once 
 onceonly 
 oneOrMore
@@ -19688,6 +19784,7 @@ selectable event pending
 selector
 self
 semantic
+sequence
 setparam
 setstate: state info has been munged; not changed.\n
 shader
@@ -19756,6 +19853,7 @@ switching encoding: encoder error\n
 syntax error
 t6Q8
 tangent
+target
 target-language
 targetNamespace
 targets
@@ -19776,6 +19874,7 @@ text serialization of document not available\n
 text()
 text: had a child node\n
 textnoenc
+texture
 textvert3ds %stext[%i] = {
 the 
 the child element was valid but neither the declaration nor the type was set
@@ -20171,6 +20270,8 @@ ymag
 z628
 zcat
 zeroOrMore
+zfar
+znear
 zp7'
 {##other:
 {%%.%df,%%.%df,%%.%df,%%.%df}

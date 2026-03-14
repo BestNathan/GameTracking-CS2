@@ -13,6 +13,7 @@
  PathId :: "
  [curvetype %s]\n
 !!SyncExtref_Material!!
+!= (or missing)
 !?Inverse@FbxAMatrix@fbxsdk@@QEBA?AV12@XZ
 !?Is@FbxClassId@fbxsdk@@QEBA_NAEBV12@@Z
 !?IsEmpty@FbxString@fbxsdk@@QEBA_NXZ
@@ -118,6 +119,7 @@ $prefix_element$
 *** Unable to find or add attribute "%s" to element "%s"!\n
 **?SetVertexColors@FbxLayer@fbxsdk@@QEAAXPEAVFbxLayerElementVertexColor@2@@Z
 *?Transpose@FbxAMatrix@fbxsdk@@QEBA?AV12@XZ
++Auto Tags
 ---- dmxconvert cmdline ----\n
 ---- dmxconvert output ----\n
 ---------------------------\n
@@ -801,6 +803,10 @@ $prefix_element$
 .png
 .tga
 .vmat
+0.0 1.0
+0.0 180.0
+0.001 1.0
+0.01 1.0
 082'
 0x%llx
 16-byte data pool
@@ -819,6 +825,7 @@ $prefix_element$
 <UNKNOWN_EXPORT_TYPE>
 <\v??BFbxString@fbxsdk@@QEBAPEBDXZ
 ='?SetAxisSystem@FbxGlobalSettings@fbxsdk@@QEAAXAEBVFbxAxisSystem@2@@Z
+== (or missing)
 =m_bUseShadowFastPath
 >"?IsValid@FbxProperty@fbxsdk@@QEBA_NXZ
 ??0FbxAMatrix@fbxsdk@@QEAA@AEBV01@@Z
@@ -967,6 +974,30 @@ $prefix_element$
 ?alpha
 ?expf
 ?vtex
+A weight determining the frequency at which this model is placed relative to other models within the detail type. The weights of all models are summed and the probability of selecting this model is its weight divided by the sum weight.
+ASSET_FILTER_CONTAINS
+ASSET_FILTER_DEF_SUBASSET
+ASSET_FILTER_DEPREF_ASSET
+ASSET_FILTER_DEPREF_BY_ASSET
+ASSET_FILTER_DOES_NOT_CONTAIN
+ASSET_FILTER_EQUAL
+ASSET_FILTER_EQUAL_OR_MISSING
+ASSET_FILTER_EXACT_DEF_SUBASSET
+ASSET_FILTER_EXACT_DEPREF_ASSET
+ASSET_FILTER_EXACT_DEPREF_BY_ASSET
+ASSET_FILTER_EXACT_PARENTED_BY_ASSET
+ASSET_FILTER_EXACT_PARENTS_ASSET
+ASSET_FILTER_EXACT_REF_SUBASSET
+ASSET_FILTER_FUNC_COUNT
+ASSET_FILTER_GREATER
+ASSET_FILTER_GREATER_EQUAL
+ASSET_FILTER_LESS
+ASSET_FILTER_LESS_EQUAL
+ASSET_FILTER_NOT_EQUAL
+ASSET_FILTER_NOT_EQUAL_OR_MISSING
+ASSET_FILTER_PARENTED_BY_ASSET
+ASSET_FILTER_PARENTS_ASSET
+ASSET_FILTER_REF_SUBASSET
 AddNewLayer
 AddUndoElement '%s'\n
 Adding %s helper key at %d value 
@@ -974,26 +1005,36 @@ Alpha Fade In Random
 Alpha Fade Out Random
 Alpha Fade and Decay
 Alpha Random
+Alternate strings this tag will match when searching for assets by name.
 Animation Bone Flags
 Animation Configuration File
 Animation/AccumulatePose
 AnimationSystem: IK
 ApplicationNativeFile
 Arms
+AssetEditInfoFilterFunc_t
+AssetEngineCommand_t
+AssetWarningFixType_t
+Attachments
 Attempted to add two format updaters with the same file format (%s)!\n
 Attempted to add two legacy updaters with the same file format (%s)!\n
 Attempted to add two serializers with the same file encoding (%s)!\n
 Attempted to read an attribute ("%s") of an inappropriate type %s!\n
 Attempted to read an attribute ("%s") of an inappropriate type!\n
 Attempted to read an attribute ("%s") of unknown type %s!\n
+AutoTagVDataCondition_t
 Autodesk
 B-Spline
 Base Layer
+Bezier
 Binary
 Binary (deterministic sequential ids)
 Binary: Element uses unknown element type %s\n
 Bind
+Blend Weight Scale
+Blend weight at which the model will be at full density. Must be between the minimum and maximum blend weight values. The density of this model placement will increase with the blend weight value up to this value at which point it will be at full density.
 BlendLayersUsingTimeSelection
+Body
 BrowInV
 Bump
 C:\buildworker\csgo_rel_win64\build\_build_\utils\exportsystem\_vpc_exportsystem\default\win64\_msvc_\Retail\exportsystem.pdb
@@ -1003,7 +1044,14 @@ C:\buildworker\csgo_rel_win64\build\src\movieobjects\dmelog.cpp
 C:\buildworker\csgo_rel_win64\build\src\movieobjects\dmerigconstraintoperators.cpp
 C:\buildworker\csgo_rel_win64\build\src\public\fbxsystem\fbxsystem.cpp
 C:\buildworker\csgo_rel_win64\build\src\texturelib\extract.cpp
+CAssetInfoFilterParams
+CAssetTagInfo
+CAssetTypeConfig
+CAssetWarning
+CAssetWarningCheck
 CAssociateResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
+CBaseToolInfo
+CBitmapAssetTypeInfo
 CBufferString
 CCompressedAnimQuaternion
 CCompressedAnimVector3
@@ -1042,6 +1090,8 @@ CDataModel::Unserialize
 CDependencyGraph::Cleanup
 CDependencyGraph::FindAttrNode
 CDependencyGraph::Reset
+CDetailPropModel
+CDetailPropType
 CDmAttribute pool
 CDmExtraVertexStream
 CDmSerializerBinary: Attribute '%s' of element '%s' read as '%s' but expected '%s'\n
@@ -1067,11 +1117,15 @@ CDmeRigTwistConstraintOperator::Operate
 CDmeTypedLog< T >::BlendLayersUsingTimeSelection
 CDmeTypedLogLayer::Compress
 CDmeTypedLogLayer::Decompress
+CEngineToolInfo
+CExternalToolInfo
 CFbxSystem::GetFbxManager
 CHammerMesh
 CImagePlaneNode
 CKV3MemberNameWithStorage
+CManifestInfo
 CManifestInstance
+CMapAssetTypeInfo
 CMapCable
 CMapCordon
 CMapDotaTileGrid
@@ -1096,9 +1150,14 @@ CMapTileProxy
 CMapVariableSet
 CMapWorld
 CModelMaterialGroupName
+CModuleManifests
+CResourceAssetTypeInfo
 CResourceNameTyped
+CSimpleAssetTypeInfo
 CStrongHandle
+CSubassetTypeInfo
 CTerrainSelection
+CToolsConfig
 CTrajectoryPath
 CTrajectoryPathNode
 CUndoArrayAttributeSetMultipleValueElement
@@ -1189,6 +1248,7 @@ CUtlRBTree<struct LayerEvent_t<int>,class CLessFunc<&public: static bool __cdecl
 CUtlRBTree<struct LayerEvent_t<unsigned __int64>,class CLessFunc<&public: static bool __cdecl LayerEvent_t<unsigned __int64>::LessFunc(struct LayerEvent_t<unsigned __int64> const &,struct LayerEvent_t<unsigned __int64> const &)>,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct LayerEvent_t<unsigned __int64>,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct LayerEvent_t<unsigned char>,class CLessFunc<&public: static bool __cdecl LayerEvent_t<unsigned char>::LessFunc(struct LayerEvent_t<unsigned char> const &,struct LayerEvent_t<unsigned char> const &)>,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct LayerEvent_t<unsigned char>,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer\n
+CVMMDAssetTypeInfo
 CVisibilityMgr
 CWeakHandle
 C\v??DFbxAMatrix@fbxsdk@@QEBA?AV01@AEBV01@@Z
@@ -1206,7 +1266,9 @@ CmdLine
 Color Fade
 Color Light From Control Point
 Color Random
+Color for the tag badge
 Compiled GUI file
+Complete fade out size
 Compressed texture bits for mip %i are corrupt, decompression error!
 Convert CModel
 Convert Texture
@@ -1238,7 +1300,9 @@ Data_Branch1xy
 Data_Branch1zBranch2x
 Data_Branch2yz
 DecompressTextureBits
+Density Scale
 Derived must implement
+Detail Prop Type
 DiffuseColor
 Distance Between Control Points Scale
 Distance to Control Points Scale
@@ -1475,6 +1539,7 @@ FloatBitMap_t::WriteInMemoryEXRFast(), C:\buildworker\csgo_rel_win64\build\src\b
 FoldLipLo
 FoldLipUp
 FoliageAnimation
+Full Density Blend Weight
 G\f%G47
 GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
 Generic DMX
@@ -1496,6 +1561,14 @@ I(?SetGlobalTimeMode@FbxTime@fbxsdk@@SAXW4EMode@12@N@Z
 IExportSystem
 IKV3TransferInterface_ResourceSave
 IOSRoot
+Icon associated with the tag
+If set, draw this as an overlay image on the asset preview
+If set, the presence of this tag will cause the tools to hide the asset from users by default. NOTE: This means if an asset gets tagged with this it might 'dissapear' from the UI!
+If set, the presence of this tag will cause the tools to suppress or dissuade use in several ways (and draw a red X over the asset preview)
+InfoDataFilter_t
+InfoForResourceTypeCModel
+InfoForResourceTypeCTextureBase
+InfoForResourceTypeCVDataResource
 Inherit Velocity
 Initial Repulsion Velocity
 Initial Scalar Noise
@@ -1552,13 +1625,38 @@ MapClass
 MapNode
 Match Particle Velocities
 Material :: 
+Material group (skin) to assign to use with the model.
 Material.vmat
+MaterialParamBuffer_t
+MaterialParamFloat_t
+MaterialParamInt_t
+MaterialParamString_t
+MaterialParamTexture_t
+MaterialParamVector_t
+MaterialParam_t
+MaterialResourceData_t
+Max Blend Weight
 Max Velocity
+Maximum blend weight value for which the model will be placed. If the blend weight value is more than this value, the model will not be placed.
+Maximum random scale value to apply to the model.
+Maximum range of random offset to apply along the model's local up direction
+Maximum range of the random rotation to apply the model.
+Maximum slope on which the target will be placed.
 Maya
 Mesh
 Mesh     :: 
 MeshUtils
+Min Blend Weight
+Minimum blend weight value for which the model will be placed. If the blend weight value is less than this value, the model will not be placed.
+Minimum random scale value to apply to the model.
+Minimum range of random offset to apply along the model's local up direction
+Minimum range of the random rotation to apply the model. Random rotation is applied in the local space of the model. Rotation values are ordered pitch, yaw, roll.
+Minimum scale to apply to the model based on the final material layer blend weight. The minimum of the detail and blend weight scale values is multiplied with the random scale value to determine the final scale. Set this if you want the model to scale up as the material blend fades in. The smaller the value, the smaller the model will start as the material begins to fade in.
+Minimum scale to apply to the model based the painted detail prop density. The minimum of the detail and blend weight scale values is multiplied with the random scale value to determine the final scale.
+Minimum slope on which the target will be placed. Slope is a [ 0, 180 ] value based on the surface normal where horizontal surface (floor) is 0, vertical surface (wall) is 90, and a horizontal upside down surface (ceiling) is 180.
+Model
 Model    :: 
+Model to be displayed.
 MorphOperator::Operate: invalid delta state name: %s\n
 Movement Basic
 Movement Dampen Relative to Control Point
@@ -1567,7 +1665,9 @@ Movement Lock to Control Point
 Movement Maintain Position Along Path
 Movement Match Particle Velocities
 Movement Max Velocity
+MovementGaitId_t
 MovieSettings
+NONE
 NULL HModel
 NULL HModel passed
 NULL HSequence
@@ -1598,6 +1698,7 @@ NoseV
 NostrilFlare
 Operate
 Operator cycle found during dependency graph traversal!\n
+Optional second key to check
 Orient Rotation to 2D Direction
 Original Foot 
 Original Knee
@@ -1632,8 +1733,24 @@ Preset File
 Procedural
 PropWorldOrigin
 QAngle
+RESOURCE_ENCODING_COMPILEIMAGEUTILS_TEXT
+RESOURCE_ENCODING_COUNT
+RESOURCE_ENCODING_INTROSPECTED
+RESOURCE_ENCODING_INVALID
+RESOURCE_ENCODING_KV3
+RESOURCE_ENCODING_LEGACY_VSND
+RESOURCE_ENCODING_MBUF
+RESOURCE_ENCODING_MIDX
+RESOURCE_ENCODING_MSLT
+RESOURCE_ENCODING_MVTX
+RESOURCE_ENCODING_RAW_BYTES
+RESOURCE_ENCODING_TEXT
+RESOURCE_ENCODING_VRMAN
+RESOURCE_ENCODING_VSNAP
+RESOURCE_ENCODING_VTEX
 R\fp82'
 Radius Random
+Radius Scale
 Random Cull
 Randomly Flip Yaw
 Redo\n======\n
@@ -1643,9 +1760,12 @@ Remap Noise to Scalar
 Remap Scalar
 Render Bone "%s" Not Found In Fbx Skeleton, Call Convert( CSkeletonPose ) first
 Render Bone "%s" Not Found In Specified CSkeletonPose
+Required for any auto-tag. Restricts the auto-application of this tag to a specific asset type (string from assettypes_common.txt like 'material_asset' or 'model_asset')
 Reset
 Resource "%s" requested out of bounds animation decompressor "%d"\n
 Resource "%s" requested unknown animation decompressor "%s"\n
+ResourceBlockTypeInfo_t
+ResourceDataEncodingType_t
 RigArms
 RigBody
 RigConstraints
@@ -1673,6 +1793,8 @@ SSAORadius
 SSAOStrength
 ScalpD
 Schema description file
+Screen space size [ 0, 1 ] (where 1 is the whole screen) at which the model will be completely faded out. Anything smaller than this size will not be visible, anything larger will start fading in.
+Screen space size [ 0, 1 ] (where 1 is the whole screen) at which the model will begin to to fade out. Anything larger will be fully visible, anything smaller will start to fade out.
 Sequence Random
 Sequence Two Random
 Sequence out of range: %d
@@ -1680,27 +1802,39 @@ Sequence( %s, %.3f ) : %.3f
 Serialize: File encoding %s is undefined!\n
 Serialize: File encoding '%s' is undefined!\n
 Serialize: Format %s expects to be written to a binary format, but the buffer is a text-format buffer\n
+Set this to automatically apply this tag based on an asset filter string. (NOTE: Auto tag names MUST start with an '@' character!)
+Set this to automatically apply this tag to assets based on references from a VData file. (NOTE: Auto tag names MUST start with an '@' character!)
+Shape
 ShotBoundsChannel
+Should instances of this model generate shadows in the lightmap. Note that shadows in the light map will persist even after the model fades out.
 Simple Cubic
 Solved Foot 
 Solved Knee
 Solved Thigh
+Specifies the number of props placed per square foot.
+Start fade out size
 StereoFlip
 Symbol table:  %d entries %llu bytes\n
 Take 001
 TanFrameQuat
+TextBlock()
 Texture  :: %s\n
 Texture Compiler Version Mip 
 Texture Configuration File
 TextureColor
 TextureNormal
 TextureTranslucency
+The VData file to read
+The key whose value must match the asset name (ie. something like 'm_Model' if you want to apply this tag to .vmdl assets that are referenced by the vdata file)
 This expression determines whether the tag should actually be applied to an asset\nIt will be evaluated against vdata entries where the key matches the asset - if any of them evaluate to true the tag will be applied.\nMost simple expressions involving the VData keys are supported. Use 'true' to tag unconditionally.
 TongueCurl
 TongueD
 TongueH
 TongueV
 TongueWidth
+ToolEditContext_ID_VMDL
+ToolImage( 16 )
+ToolImage( 64 )
 Totals
 Trail Length Random
 TransparentColor
@@ -1726,9 +1860,14 @@ Unserialize: Unexpected format '%s' reading file '%s' - expected format '%s'\n
 Unsupported export type :: %s
 Unsupported input file type: %s
 User Data Element
+User-facing description of the tag
+User-facing tag name
 VDataModelVersion001
 VDmElementFrameworkVersion001
 VDmSerializers001
+VMAP_MANUAL_RECOMPILE
+VMDL_CONVERT_TO_MODELDOC
+Value indicating if the model's up direction should be matched to the surface. Value should be in the [ 0, 1 ] range, where 0 means that the model up will be model (or object space) up and will ignore the surface direction, and 1 indicates that the model up will exactly match the surface normal.
 Valve
 Valve Map File
 Velocity Inherit from Control Point
@@ -1832,6 +1971,7 @@ audioTarget
 autoTime
 auto_time
 axies
+axis
 axisSystem
 background
 backgroundColor
@@ -1885,10 +2025,12 @@ box_maxs
 box_mins
 boxproject_maxs
 boxproject_mins
+brightness
 brightness_units
 brightnessscale
 bspline
 cable_static
+camera
 can_override_npc_state
 candle_1
 candle_2
@@ -1917,6 +2059,7 @@ collisionmesh
 color log
 color$0
 color$0Indices
+color1
 color255
 color_array
 color_blue
@@ -1945,6 +2088,7 @@ connectionsData
 constantAttenuation
 constrainVelocity
 constrain_velocity
+contains
 content
 continue_on_death
 controlColor
@@ -1979,6 +2123,8 @@ defaultValue
 defaultcurvetype
 defaultedgezerovalue
 defaultvalue
+defines subasset
+defines subasset (exact)
 deltaStateWeights
 deltaStateWeightsLagged
 deltaStates
@@ -1999,10 +2145,17 @@ displayWindow
 dmemesh
 dmfbxserializer
 dmxconvert -allowdebug -i "
+doesn't contain
 dominators
 drawGameRenderablesMask
 drawToolRenderablesMask
 durationTime
+eFast
+eMoveWithGait
+eSlow
+eTeleport
+eWait
+eWaitFacing
 easein
 easeinout
 easeout
@@ -2039,6 +2192,7 @@ faces
 facial_animation
 fadeIn
 fadeOut
+falloff
 falloff_left
 falloff_right
 fast
@@ -2104,6 +2258,7 @@ hold
 hold_left
 hold_right
 houdini
+ik_debug_perlin_solver
 index
 indices
 indirectlight
@@ -2111,11 +2266,13 @@ info_particle_system
 initialMass
 initial_mass
 innerconeangle
+input
 instance_file
 instance_parm
 instance_variable
 int log
 int_array
+intensity
 interpolator_left
 interpolator_right
 invalid vector subscript
@@ -2163,6 +2320,12 @@ keyvalues2_v
 kochanek
 kochanek_early
 kochanek_late
+labelled_debug_helper_arc_segments
+labelled_debug_helper_enabled
+labelled_debug_helper_scale
+labelled_debug_helper_show_position
+labelled_debug_helper_show_text
+labelled_debug_helper_skeleton_show_bone_names
 layers
 left
 leftEdgeActive
@@ -2201,42 +2364,172 @@ lower_hemisphere_is_black
 lowprecisionuv
 lowprecisionuv1
 m%d%d
+m_AdditionalExtensions
 m_AdditionalInputDependencies
 m_AdditionalRelatedFiles
+m_AlternateAssetKey
+m_ArgsWithLineColumn
 m_ArgumentDependencies
+m_AssetKey
+m_AssetType
+m_AssetTypes
+m_AssetWarnings
+m_AutoDataTag
+m_AutoFilterTag
+m_BlockID
+m_Blocks
+m_Checks
 m_ChildResourceList
+m_Command
+m_CompileDependsOnResourceTypes
+m_CompilerIdentifier
+m_Encoding
+m_EngineCommands
+m_EngineModulesThatReferenceAssets
+m_EngineTools
+m_ExcludeAddonNames
+m_ExcludeFromMods
+m_Executable
+m_Ext
+m_ExternalTools
+m_FilterFunc
+m_Filters
+m_FixDescription
+m_FixType
+m_FriendlyName
+m_Group
+m_HideForRetailMods
+m_Icon
+m_IconLg
+m_IconSm
 m_InputDependencies
+m_InterfaceName
+m_IntrospectedRootStruct
+m_Library
+m_LimitToMods
+m_Manifests
+m_MatchSystemExecutable
+m_MaterialGroup
+m_Mod
+m_ModelName
+m_Models
+m_OverrideToolShortcutName
 m_ParameterType
+m_PreviewThumbnailOverlayIcon
+m_PriorityExts
 m_RelativeFilename
+m_RequireSearchableIntKey
+m_RequireSearchableIntValue
+m_RequiredSpecialDependency
+m_ResourceVersion
+m_Resources
+m_RestrictAutoTagToAssetType
+m_RestrictAutoTagToAssetType == ""
 m_RootRelativePath
 m_SearchPath
 m_SearchableUserData
+m_SourceFile
 m_Special
 m_SpecialDependencies
 m_SpecialInputDependencies
 m_String
 m_SubassetDefinitions
 m_SubassetReferences
+m_SubassetTypes
+m_SupportedExts
+m_SuppressSubstrings
+m_TagAliases
+m_TagColor
+m_TagDescription
+m_TagIcon
+m_TagName
+m_Test_InjectSearchable
+m_ThumbnailOverlayImage
+m_Title
+m_ToolIcon
 m_UserData
 m_WeakReferenceList
+m_WorkingDir
+m_bAllowedToCompileInTestMode
 m_bBakedTwoSided
+m_bBringEngineToFront
 m_bCanBatchWithDynamicShaderConstants
+m_bCanHighlightSubassets
+m_bCannotBeAMultiParentChildCompile
+m_bCannotBeShown
+m_bCastStaticShadows
+m_bContentFileIsText
+m_bDebugCommandline
+m_bDoNotWarnAboutLargeAssetBatches
 m_bDrawLast
 m_bFileExists
+m_bFollowReferences
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
+m_bHideTypeByDefault
+m_bIgnoreCompiledState
 m_bIsGameFile
+m_bIsNontrivialChildAssetType
 m_bIsNotMatchedToMaterial
+m_bIsSecondaryTool
+m_bIsWorkshopItemTool
+m_bIsWorkshopManagerTool
 m_bNoShadow
 m_bOnlyShadow
+m_bOnlyWarnAddons
+m_bOnlyWarnIfContentFilePresent
+m_bOnlyWarnIfGameFilePresent
 m_bOptional
+m_bPrefersIconForThumbnail
+m_bPrefersLivePreview
+m_bPresentInGameTree
+m_bPreventDirectCompile
+m_bShouldCompileErrorFallbackToDisk
+m_bShowInRevisionSubMenu
+m_bSuppressFullFingerprintCalculation
+m_bTagHidesAssetByDefault
+m_bTagIndicatesRejectedAsset
+m_bUnrecognizedReferencesAreErrors
 m_bUseCompressedNormalTangent
+m_dynamicParams
+m_dynamicTextureParams
 m_fMoveTo
+m_flBlendWeightFullDenstity
+m_flBlendWeightMax
+m_flBlendWeightMin
+m_flBlendWeightMinScale
+m_flDensity
+m_flDensityMinScale
+m_flEndFadeSize
+m_flMaxSurfaceSlope
+m_flMinSurfaceSlope
+m_flOrientToSurface
+m_flRandomVerticalOffsetMax
+m_flRandomVerticalOffsetMin
+m_flStartFadeSize
+m_flValue
+m_floatAttributes
+m_floatParams
+m_intAttributes
+m_intParams
+m_materialName
+m_nAssetTypeVersion
 m_nFileCRC
 m_nFingerprint
 m_nFingerprintDefault
+m_nSourceLine
 m_nUserData
+m_pValue
 m_pVertexData
+m_renderAttributesUsed
+m_sId
+m_shaderName
+m_stringAttributes
+m_textureAttributes
+m_textureParams
+m_value
+m_vectorAttributes
+m_vectorParams
 maintain position along path
 makefile
 manipulatorSettings
@@ -2259,6 +2552,9 @@ meshShape
 meshShape_%s
 mesh_%d
 mesh_%s
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 micDistance
 midJoint
 midOffset
@@ -2271,6 +2567,7 @@ missing all pose parameters\n
 modelPath
 model_attachment
 model_bone
+model_default_preview_sequence_name
 model_path
 model_scale
 modo
@@ -2319,6 +2616,7 @@ note
 npcclass
 numTimeSteps
 oOffset
+offset
 offsetTime
 operators
 optionallycompressedtangentframe
@@ -2341,6 +2639,10 @@ ownerlog
 p82'
 parentBindRotation
 parentConstraint
+parented by asset
+parented by asset (exact)
+parents asset
+parents asset (exact)
 pathNodeName
 path_generic
 path_node_cable
@@ -2351,6 +2653,7 @@ path_particle_rope
 path_trajectory
 pattern
 phonememap
+physics
 physicsSimplificationError
 physicsSimplificationOverride
 pinEnabled
@@ -2379,6 +2682,7 @@ postprocessing
 posxyz
 prefab_has_runtime_entity_by_default
 prefab_root
+preset
 presetGroups
 presetRemap
 presets
@@ -2408,6 +2712,12 @@ rawControlNames
 readonly
 recordingstate
 refOrientation
+referenced or depended-on by asset
+referenced or depended-on by asset (exact)
+references or depends on asset
+references or depends on asset (exact)
+references subasset
+references subasset (exact)
 remap_scalar
 removing layer %d from stack\n
 renderMesh%d
@@ -2422,6 +2732,7 @@ replacedSoundEvents
 replacedVsnds
 resampleinterval
 resourcesystem
+result
 result_left
 result_right
 right
@@ -2454,12 +2765,14 @@ screenWindowCenter
 screenWindowWidth
 scripted_sequence
 scriptlist
+scripts/detail_prop_types.vdata
 second_sequence_random
 selectable
 selectedControls
 selectedControls2
 selectionGroups
 semanticName
+sequence
 sequence_random
 sequential position along path
 sessionSettings
@@ -2518,6 +2831,7 @@ snapshotOverride
 snapshot_file
 soft_x
 soft_y
+sound
 soundEventScript
 soundname
 sourceDag
@@ -2564,6 +2878,7 @@ tangent$0Indices
 tangents
 tangentsIndices
 tangentu_signv
+target
 targetGroup
 targetGroupNodeID
 targetName
@@ -2581,6 +2896,7 @@ texcoord$0
 texcoord$0Indices
 texcoord$1
 text_block
+texture
 textureCoordinates
 textureCoordinatesIndices
 textureFrame
@@ -2641,6 +2957,7 @@ vector3_array
 vector4 log
 vector4_array
 velTolerance
+velocity
 velocity_random
 velocity_tolerance
 vertexFormat
@@ -2668,6 +2985,7 @@ vtex
 vvtx
 vwnod
 vwrld
+weight
 weight$0
 weights
 weightweight$0
@@ -2683,5 +3001,7 @@ wrinkle$0Indices
 wrinkleIndices
 wrinkleScales
 z)?SetScale@FbxTexture@fbxsdk@@QEAAXNN@Z
+zfar
+znear
 {+?currentDateTimeGMT@FbxDateTime@fbxsdk@@SA?AV12@XZ
 |BBoneSetup

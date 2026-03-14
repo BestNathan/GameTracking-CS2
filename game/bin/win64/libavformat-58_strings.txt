@@ -443,6 +443,7 @@ Changing frag_type from none to every_frame as streaming is enabled\n
 Changing stream parameters in multistream ogg
 Changing the codec id midstream
 Channel change is not supported\n
+Channels
 Chanson
 Chapter %d not found in file\n
 Chapter end time %lld before start %lld\n
@@ -657,6 +658,7 @@ Euro-House
 Euro-Techno
 Eurodance
 Expecting connect, got %s\n
+Experimental
 Export full XMP metadata
 Export unrecognized metadata entries
 Extradata corrupt.\n
@@ -1185,9 +1187,11 @@ Multiple mdhd?\n
 Musical
 Muxing VP6 in flv will produce flipped video on playback.\n
 NAL_unit_type[%hhu]:                    %hhu\n
+NAME
 NELL
 NGINX RTMP
 NO16\r
+NONE
 NOPTS
 NTP time format roll over detected\n
 NV12\r
@@ -1222,6 +1226,7 @@ No stream associated to TrackNumber %llu. Ignoring Block with this TrackNumber.\
 No streams to mux were specified\n
 No track found\n
 No wav codec tag found for codec %s\n
+Noise
 Non ASCII keys are not allowed\n
 Non-consecutive fragments, writing incorrect sidx\n
 Non-increasing DTS in stream %d: packet %d with DTS %lld, packet %d with DTS %lld\n
@@ -2314,6 +2319,7 @@ col_interleaved_lr
 col_interleaved_rl
 colr
 comment
+commentary
 compatible_brands
 compilation
 compliant
@@ -2490,6 +2496,7 @@ esds
 esds object type id 0x%02x\n
 every_frame
 experimental
+explode
 export_all
 export_xmp
 exr 
@@ -3054,6 +3061,7 @@ pipe
 pkt->size == sizeof(*frame)
 pkt->stream_index < (unsigned)s->nb_streams && "Invalid stream index.\n"
 place name too long\n
+play
 playback_requirements
 png $
 png =

@@ -10734,6 +10734,7 @@ CoInitialize
 CoarseTimer
 Cocos Islands
 CocosIslands
+Code
 Colognian
 Colombia
 ColorMode_Mask
@@ -10745,9 +10746,11 @@ CombiningHalfMarks
 CombiningMarksforSymbols
 Command(
 CommandLineToArgvW
+Comment
 Comoros
 Comparators already registered for type %s
 ConfigLocation
+Configuration
 Congo Brazzaville
 Congo Kinshasa
 Congo Swahili
@@ -10769,6 +10772,7 @@ CookIslands
 CopticScript
 CopyAction
 CopySid
+Corner
 Cornish
 Corsican
 CosineCurve
@@ -10810,6 +10814,7 @@ CursorChange
 CursorMoveStyle
 CursorShape
 CurveShape
+Custom
 CustomContextMenu
 CustomCursor
 CustomDashLine
@@ -11023,8 +11028,10 @@ EJ}o!p~o"p
 EKFK
 EKZ1b0
 EL1I
+ELEMENT
 EMPTY
 ENTITIES
+ENTITY
 ENxp]NR
 EST5EDT
 EUBU
@@ -11307,6 +11314,7 @@ Finnish
 FirstSection
 FlatCap
 Float16
+Floor
 Flt|nQ
 FlushProcessWriteBuffers
 FmEmZ7Hm
@@ -11749,16 +11757,31 @@ Improper link
 In %s:\n  Plugin uses incompatible Qt library (%d.%d.%d) [%s]
 InBack
 InBounce
+InCirc
+InCubic
 InCurve
 InElastic
+InExpo
 InOutBack
 InOutBounce
+InOutCirc
+InOutCubic
 InOutElastic
+InOutExpo
+InOutQuad
+InOutQuart
+InOutQuint
+InOutSine
+InQuad
+InQuart
+InQuint
+InSine
 Inactive Titlebar
 Inappropriate I/O control operation
 Inari Sami
 InariSami
 Incompatible processor. This Qt build requires the following features:\n   
+Index
 IndexIsValid
 India
 India Standard Time
@@ -11803,6 +11826,7 @@ IntersectsItemBoundingRect
 IntersectsItemShape
 Inuktitut
 Inupiak
+Invalid
 Invalid IPv6 address (character '%1' not permitted)
 Invalid IPvFuture address (character '%1' not permitted)
 Invalid XML character.
@@ -12559,6 +12583,7 @@ Liechtenstein
 LimbuScript
 Limburgish
 Line Islands Standard Time
+Linear
 Linear A
 Linear B
 LinearA
@@ -13199,6 +13224,7 @@ Options:
 OqPq
 OrderedAlphaDither
 OrderedDither
+Orientation
 OrientationChange
 Orientations
 OriyaScript
@@ -13216,8 +13242,11 @@ OtherFocusReason
 Out of memory
 OutBack
 OutBounce
+OutCirc
+OutCubic
 OutCurve
 OutElastic
+OutExpo
 OutInBack
 OutInBounce
 OutInCirc
@@ -13228,6 +13257,10 @@ OutInQuad
 OutInQuart
 OutInQuint
 OutInSine
+OutQuad
+OutQuart
+OutQuint
+OutSine
 Outlying Oceania
 OutlyingOceania
 OvOtO
@@ -13442,6 +13475,7 @@ Premature end of document.
 PreventContextMenu
 PreventUnloadHint
 PrimaryOrientation
+Priority
 PrivateUse
 Process crashed
 Process failed to start
@@ -14302,6 +14336,7 @@ Romanian
 Romansh
 Rombo
 RotateNativeGesture
+Round
 RoundCap
 RoundJoin
 RoundPreferFloor
@@ -15868,6 +15903,7 @@ WlYl
 WnW'Y\r\
 Wnffm1
 Wolof
+World
 WrSrYr
 Writable
 WriteError
@@ -16831,6 +16867,7 @@ andriatranibarletta.it
 android
 anghke.no
 anif
+animated
 anjo.aichi.jp
 ann-arbor.mi.us
 annaka.gunma.jp
@@ -17649,6 +17686,7 @@ calvinklein
 cam.it
 cambridge.museum
 camdvr.org
+camera
 camp
 campania.it
 campidano-medio.it
@@ -17821,6 +17859,7 @@ chikuma.nagano.jp
 chikusei.ibaraki.jp
 chikushino.fukuoka.jp
 chikuzen.fukuoka.jp
+child
 childMode
 childModeChanged
 children.museum
@@ -18030,6 +18069,7 @@ collegefan.org
 cologne
 colonialwilliamsburg.museum
 color0
+color1
 coloradoplateau.museum
 columbia.museum
 columbus.museum
@@ -20536,6 +20576,7 @@ inf.cu
 inf.mk
 inf.ua
 infiniti
+info
 info.at
 info.au
 info.az
@@ -21240,6 +21281,7 @@ kijo.miyazaki.jp
 kikonai.hokkaido.jp
 kikuchi.kumamoto.jp
 kikugawa.shizuoka.jp
+kill
 kimino.wakayama.jp
 kimitsu.chiba.jp
 kimobetsu.hokkaido.jp
@@ -22005,6 +22047,7 @@ matta-varjjat.no
 mattel
 maxSize argument exceeds QByteArray size limit
 maxThreadCount
+maximum
 mayfirst.info
 mayfirst.org
 mazowsze.pl
@@ -22212,6 +22255,7 @@ mincom.tn
 mine.nu
 miners.museum
 mini
+minimum
 mining.museum
 miniserver.com
 minnesota.museum
@@ -23205,6 +23249,7 @@ off.ai
 office
 office-on-the.net
 official.academy
+offset
 offset limit set without PCRE2_USE_OFFSET_LIMIT
 ofmf
 ofunato.iwate.jp
@@ -23830,6 +23875,7 @@ place
 planetarium.museum
 plantation.museum
 plants.museum
+play
 playstation
 plaza.museum
 plc.co.im
@@ -23956,6 +24002,7 @@ progressValueChanged
 progressive
 project.museum
 promo
+properties
 propertiesAssigned
 property
 propertyName
@@ -24157,6 +24204,7 @@ racing
 rackmaze.com
 rackmaze.net
 rade.no
+radio
 radio.br
 radom.pl
 radoy.no
@@ -25405,6 +25453,7 @@ tara.saga.jp
 tarama.okinawa.jp
 taranto.it
 tarasa
+target
 targetObject
 targetState
 targetStateChanged
@@ -26386,6 +26435,7 @@ wedeploy.me
 wedeploy.sh
 wegrow.pl
 weibo
+weight
 weir
 wellbeingzone.co.uk
 wellbeingzone.eu

@@ -268,6 +268,7 @@ C:\buildworker\csgo_rel_win64\build\_build_\vfx\vfx_dx\_vpc_vfx_dx11\default\win
 C:\buildworker\csgo_rel_win64\build\src\vfx\compiletargetexpr.g
 C:\buildworker\csgo_rel_win64\build\src\vfx\vfx_dx\hlslvariables.g
 C:\buildworker\csgo_rel_win64\build\src\vfx\vfxexpr.g
+CLAMP
 COMMENT
 COMMON
 COMPARISON_ANISOTROPIC
@@ -339,6 +340,7 @@ DepthClipEnable
 DepthEnable
 DepthFunc
 DepthWriteEnable
+Description
 Dev Shader
 DevShader
 Didn't find entrypoint %s in CS %s
@@ -366,6 +368,7 @@ EQUAL
 ERROR!
 ESC_SEQ
 EXPORT
+Enum
 Error adding shader to cache\n
 Error loading D3D compiler DLL %s!\n
 Error masking unused parts for vfx file CVfxDx11::CompileShaderAndGetVariables(612): \n
@@ -388,6 +391,7 @@ FakeBindlessTexture2D
 Feature combo %s referenced in expression doesn't exist.
 Features
 FillMode
+Filter
 FoliageAnimation
 Function %s() expects %d arguments. Found %d.
 GREATER
@@ -473,6 +477,7 @@ MotionVectorsMaxDistance
 MultisampleEnable
 NEAREST
 NEVER
+NONE
 NOT_EQUAL
 OCTAL_ESC
 OverlayProjectionDirection
@@ -507,7 +512,9 @@ PixelShader
 PointStream
 Preprocessed HLSL code
 PropWorldOrigin
+REPLACE
 REV_SUBTRACT
+RGBA
 RWBuffer
 RWByteAddressBuffer
 RWStructuredBuffer
@@ -523,6 +530,7 @@ RemapValClamped
 RwTexture1D
 SCALAR_TYPE
 SHADER_MODEL
+SOLID
 SRC1_ALPHA
 SRC1_COLOR
 SRC_ALPHA
@@ -587,6 +595,7 @@ SubsurfaceProfile
 Swizzle operation only supports up to four channels.
 TRILINEAR
 TanFrameQuat
+Texture
 Texture1D
 Texture1DArray
 Texture2D
@@ -646,6 +655,7 @@ Viewport
 WIREFRAME
 WRAP
 Wrong number of items in value for annotation %s. Ignoring annotation.\n
+ZERO
 [[vk::push_constant]] GlobalsBDAPushConstant_t g_GlobalsBDAPushConstant;\n
 \n*** Error masking unused parts! Unknown text found. This is usually caused by a '{' or '}' not tabbed properly or an invalid declaration at the global scope. (line %d):\n%s\n\n
 \nMaterial Owned CB size: %d\n\n
@@ -725,6 +735,7 @@ dot3
 dot4
 errors
 exp2
+expression
 externaldescriptorset
 features
 fileExt
@@ -791,13 +802,18 @@ lerp
 lib_6_4
 line
 lineadj
+linear
 log2
 lowprecisionuv
 lowprecisionuv1
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 minPrecision
 ms_6_5
 nInstanceIdx
 nVertexID
+normalize
 normalize_safe
 optionallycompressedtangentframe
 outputFormat
@@ -861,6 +877,7 @@ system.fxc
 tangent
 tangentu_signv
 texcoord
+texture
 texture2darrayindex
 texture2dindex
 texture3dindex

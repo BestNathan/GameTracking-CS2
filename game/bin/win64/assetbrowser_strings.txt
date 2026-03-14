@@ -3126,7 +3126,23 @@ A string associated with this Cursor, to use later for remote Kill or Wait reque
 A#?write@QTreeWidgetItem@@UEBAXAEAVQDataStream@@@Z
 ACT_IDLE
 ACT_NEUTRAL_REF_POSE
+ADD_FLOAT
+ADD_FLOAT_GAMETIME
 ADD_FLOW
+ADD_GAMETIME_FLOAT
+ADD_INT
+ADD_STRING
+ADD_VEC2
+ADD_VEC3
+ADD_VEC3WS_VEC3
+ADD_VEC3_VEC3WS
+ADD_VEC4
+AF_ENTITIES
+AF_FAKE_ENTITIES
+AF_NONE
+AF_PANORAMA
+AF_PARTICLES
+AF_SELECTORS_WITHOUT_REQUIREMENTS
 ANCHOR
 AND List
 AND: This group will only match if ALL of the parts match\n(Click to toggle to AND)
@@ -3160,6 +3176,7 @@ Additional Related File
 Additional pixel spacing between children
 Addr
 Address
+Advanced
 AfterDataModelsUpdated
 Alignment of STRETCH will be ignored due to FixedSize property
 AllSelected
@@ -3168,8 +3185,11 @@ Alpha:
 Always
 And R%d <- R%d && R%d
 Any Other Cursors Have Tag
+Any cursors above this count will wait, up to the limit.
+Any extra waiting cursors will be terminated. -1 for infinite cursors.
 Append to forcedirty.txt
 AppendCurrentSelection
+Apply the same tag we're waiting on to the resulting cursor upon wait completion. Can be used to wait on our result cursor with the same tag.
 ApplySelectedSavedSearch
 Arc Cos
 Arc Cosine of input value. Input must be -1.0, 1.0 range. Output in radians, from 0 to 
@@ -3190,6 +3210,7 @@ Array Remove Index
 Array Remove Invalid Elements
 Array Set Count
 Array Shuffle
+Array support.
 Assert True
 Asset
 Asset Browser
@@ -3235,6 +3256,7 @@ Assets
 Assets:\n
 AssetsRightClicked
 Async Fire C%d:I%d
+Asynchronous - returns and continues despite the called method yielding
 Attempted a typeid of nullptr pointer!
 Attempted to pop off of an empty CUtlQueue. Please check before using this method.
 Attempting to register the command %s for context %s multiple times\n
@@ -3280,12 +3302,14 @@ Base-2 logarithm
 BasePort
 BasePortContainer
 Base_Palette
+Basic math support.
 BeforeDataModelsUpdated
 Begin mouse capture [%i]: %s\n
 Begin testing a condition composed of Observable values. Continues checking until canceled.
 Begin testing a condition composed of Observable variable references. Continues checking until true.
 BeginDrag
 Binding removed due to active drag: %s
+Boolean Switch State
 Border
 Border width
 BorderRadius
@@ -3327,11 +3351,15 @@ CBindableCamera
 CBufferString
 CColorGradient
 CDeleteWorkingSetsPromptDialog
+CELL_INVOKE
+CENTER
 CEntityNameString
 CGenericFilterDomain::IListener
 CGlobalHotkeyCommands
 CGlobalSymbol
 CGlobalSymbolCaseSensitive
+CHUNK_LEAP
+CHUNK_LEAP_COND
 CInputBindManager::HandleInputCode recursion depth got too deep.\n
 CKV3MemberNameSet
 CKV3MemberNameWithStorage
@@ -3350,9 +3378,15 @@ COMMENTS
 COMMENT_OVERLAY
 CONNECTIONS_BACKGROUND
 CONNECTIONS_FOREGROUND
+CONVERT_VALUE
+COPY
+COUNT
 CP4FileInfoCache&
+CParticleBindingRealPulse
+CParticleCollectionBindingInstance
 CParticleCollectionBindingInstance::HACK_UnusedBinding
 CPiecewiseCurve
+CPulseArraylib
 CPulseArraylib::ArrayAppend
 CPulseArraylib::ArrayConcatenate
 CPulseArraylib::ArrayCount
@@ -3363,30 +3397,56 @@ CPulseArraylib::ArrayRemoveIndex
 CPulseArraylib::ArrayRemoveInvalidElements
 CPulseArraylib::ArraySetCount
 CPulseArraylib::ArrayShuffle
+CPulseCell_BaseLerp::CursorState_t
+CPulseCell_BaseState
+CPulseCell_BooleanSwitchState
 CPulseCell_BooleanSwitchState::Activate
+CPulseCell_CursorQueue
 CPulseCell_CursorQueue::Wait
+CPulseCell_FireCursors
 CPulseCell_FireCursors::Cancel
 CPulseCell_FireCursors::Start
 CPulseCell_Inflow_EntOutputHandler '%s'.'%s' --> Chunk%d: %s
 CPulseCell_Inflow_EventHandler '%s' --> Chunk%d: %s
 CPulseCell_Inflow_GraphHook '%s' --> Chunk%d: %s
 CPulseCell_Inflow_ObservableVariableListener '%s'.'%s (%u)' --> Chunk%d: %s
+CPulseCell_InlineNodeSkipSelector
 CPulseCell_InlineNodeSkipSelector::ProcessSelector
+CPulseCell_IntervalTimer
+CPulseCell_IntervalTimer::CursorState_t
 CPulseCell_IntervalTimer::OnInterval
 CPulseCell_IntervalTimer::Start
 CPulseCell_IntervalTimer::StopTimer
+CPulseCell_IsRequirementValid
 CPulseCell_IsRequirementValid::CheckRequirement
+CPulseCell_IsRequirementValid::Criteria_t
+CPulseCell_LimitCount
 CPulseCell_LimitCount::CheckRequirement
 CPulseCell_LimitCount::CommitStep
+CPulseCell_LimitCount::Criteria_t
+CPulseCell_LimitCount::InstanceState_t
+CPulseCell_Outflow_CycleOrdered::InstanceState_t
+CPulseCell_Outflow_CycleShuffled::InstanceState_t
+CPulseCell_PickBestOutflowSelector
 CPulseCell_PickBestOutflowSelector::ProcessSelector
 CPulseCell_Step_CallExternalMethod '%s'
+CPulseCell_Timeline
 CPulseCell_Timeline::Start
 CPulseCell_Timeline::Stop
+CPulseCell_Timeline::TimelineEvent_t
+CPulseCell_Unknown
+CPulseCell_Value_Curve
 CPulseCell_Value_Curve::Eval
+CPulseCell_Value_Gradient
 CPulseCell_Value_Gradient::Eval
+CPulseCell_WaitForCursorsWithTag
 CPulseCell_WaitForCursorsWithTag::Wait
+CPulseCell_WaitForCursorsWithTagBase
+CPulseCell_WaitForCursorsWithTagBase::CursorState_t
+CPulseCell_WaitForObservable
 CPulseCell_WaitForObservable::Cancel
 CPulseCell_WaitForObservable::Start
+CPulseCursorFuncs
 CPulseCursorFuncs::AnyOtherCursorsHaveTag
 CPulseCursorFuncs::CursorHasTag
 CPulseCursorFuncs::KillAllOtherCursors
@@ -3395,6 +3455,9 @@ CPulseCursorFuncs::KillThisCursorAndCancel
 CPulseCursorFuncs::KillThisCursorAndFail
 CPulseCursorFuncs::RemoveTagFromCursor
 CPulseCursorFuncs::TagCursor
+CPulseGraphDef
+CPulseGraphExecutionHistory
+CPulseMathlib
 CPulseMathlib::AbsFloat
 CPulseMathlib::AbsInt
 CPulseMathlib::ArcCos
@@ -3463,11 +3526,24 @@ CPulseMathlib::StringsAreEqualCaseSensitive
 CPulseMathlib::Tan
 CPulseMathlib::VectorToWorldVector
 CPulseMathlib::WorldVectorToVector
+CPulseTestScriptLib
 CPulseTestScriptLib::AssertTrue
 CPulseTestScriptLib::IndicateTestFailure
 CPulseTestScriptLib::IsInTestMode
 CPulseTestScriptLib::RegisterTestCheckpoint
 CPulseTestScriptLib::TestModeAssertTrue
+CPulse_BlackboardReference
+CPulse_CallInfo
+CPulse_Chunk
+CPulse_Constant
+CPulse_DomainValue
+CPulse_InstructionDebug
+CPulse_InvokeBinding
+CPulse_OutflowConnection
+CPulse_OutputConnection
+CPulse_PublicOutput
+CPulse_RegisterInfo
+CPulse_Variable
 CQ2DCanvas
 CQAdjustableDateInput
 CQAssetBrowserMainWnd
@@ -3652,11 +3728,15 @@ CTonemappingPopupUI
 CToolAxisObjectDesc::DrawArray
 CToolSceneAxis
 CToolSceneLight
+CToolSceneLightRig
 CToolSceneNode
 CToolSceneNodeGroup
 CToolSceneSky
 CToolSceneTraceEnvironment::Draw_SetupIdForCurrentNode - Trying to draw with no node. You need to call Draw_SetCurrentNode() before drawing\n
 CToolsVisPopupUI
+CURSOR_ADD_TAG
+CURSOR_REMOVE_TAG
+CURSOR_RETIRED
 CURVE_TANGENT_FREE
 CURVE_TANGENT_MIRROR
 CURVE_TANGENT_SINE
@@ -3699,11 +3779,14 @@ CUtlVector<IAsset*>*
 CUtlVector<IAssetType*>
 CUtlVectorFixedGrowable
 Call C%d:I%d (%s)
+Called when timer reaches the duration OR is stopped. NOTE: This will run a little while AFTER the last interval fires unless they line up perfectly.
+Camera
 CameraLookAtSelection
 Can't connect to perforce server.
 Cancel
 Cancel observing.
 CancelClicked
+Canceled
 Cannot Debug
 Cannot add multiple root layouts to the same widget
 Cannot allocate abstract class
@@ -3717,8 +3800,11 @@ Cannot split dock - sibling QDockWidget not found (%s)
 Cannot tabify dock - sibling QDockWidget not found (%s)
 CapToggle
 Caps
+Causes each execution cursor to wait for the completion of all prior cursors that have visited this node. Use this to safely support multiple triggers to areas of the graph that take time to complete.
+Causes this execution cursor to wait for the completion of other cursors with the given tag. Can optionally kill the tag while waiting.
 Ceiling - round float up to nearest integer)
 Ceiling Float
+Center
 Centered
 Cgraphcanvas_debug_layout
 Changelist
@@ -3733,6 +3819,11 @@ Checkout
 Checkout and open '%1' in %2
 CheckoutAndOpenRoot
 Child Asset(s)
+Children
+Choose Best
+Choose First
+Choose the best outflow with all rules passing, as determined by number of passing rules (specificity).
+Choose the first outflow with all rules passing, from left to right
 Clamp Float
 Clamp Int
 Clamp value to range (float)
@@ -3747,6 +3838,7 @@ ClearInputHistory
 ClearThumbnailCache
 Clicked
 Client Exclusions Active: %s
+Clone
 Clone Set
 Clone the selected working set
 CloneWorkingSetAction
@@ -3755,6 +3847,7 @@ Close the Asset Browser. (Does NOT shut down the engine or other tools.)
 Close the group automatically after a short wait (good for 'success' messages)
 Close the group automatically when the associated parent process exits (good for sticky 'error' messages)
 CloseWorkingSetTab
+Code
 Collapse all folders
 CollapseAll
 Collapsed
@@ -3776,6 +3869,8 @@ Completer Settings
 CompleterRequested
 Computes 2 ( 2.71...) raised to a power
 Computes e ( 2.71...) raised to a power
+Condition
+Condition to evaluate when any of its dependent values change.
 Configure various options
 Considered by parent in LayoutSystem_PlaceItemAndChildren_R
 Contain
@@ -3813,6 +3908,7 @@ CornerWidget:%s
 Cosine of angle. Input in radians, output in radians
 Could not execute the command:\n%1\nWorking directory:\n%2
 Could not resolve path: %1
+Count
 Courier
 Cover
 Create Changelist
@@ -3828,14 +3924,18 @@ Ctrl
 Ctrl+Q
 CurrentWorkingSetChanged
 Cursor Has Tag
+Cursor Queue
 Cursor to use when hovered over an item.
 CursorShape
 Cursors Allowed To Run Parallel
 Cursors Allowed To Wait
+Curve
 Custom Color
 Custom Colors
 DEFAULT
 DELETE
+DETACH_REGISTER
+DIV_FLOAT
 DRAG_HANDLE
 D\tV_log2f
 Data_Branch1xy
@@ -3843,6 +3943,7 @@ Data_Branch1zBranch2x
 Data_Branch2yz
 Date/Time
 DateChanged
+Debug
 Debug Focus Widget
 Debug Widget Under Mouse
 Debug-print path to root
@@ -3878,6 +3979,7 @@ Delete compiled assets that are no longer used.
 Delete selected working set
 Delete...
 DeleteAsset
+Description
 DeselectAllFiles
 Designable
 Desired Kill Priority
@@ -3906,13 +4008,39 @@ DragUpdated
 DrawBoneNamesChanged
 DrawSkyboxChanged
 DummyNoOp
+Dump all new particles, optional name substring.
+Dump all simulating particles, optional name substring.
 Duplicate Tab
 Duplicate tab
 Duplicate the current working set tab
 DuplicateCurrentTab
 DuplicateTab
 DuplicateTabAt
+ELEMENT_ACCESS
+ELEMENT_ACCESS_COLOR_RGB
+ELEMENT_ACCESS_VEC2
+ELEMENT_ACCESS_VEC3
+ELEMENT_ACCESS_VEC3WS
+ELEMENT_ACCESS_VEC4
 ELIDE_TEXT_END
+EPulseGraphExecutionHistoryFlag
+EQ_ARRAY
+EQ_BOOL
+EQ_COLOR_RGB
+EQ_EHANDLE
+EQ_ENTITY_NAME
+EQ_FLOAT
+EQ_GAMETIME
+EQ_INT
+EQ_OPAQUE_HANDLE
+EQ_PANEL_HANDLE
+EQ_SCHEMA_ENUM
+EQ_STRING
+EQ_TEST_HANDLE
+EQ_VEC2
+EQ_VEC3
+EQ_VEC3WS
+EQ_VEC4
 ERROR: Failed to open file for key bindings:\n%1\n
 ERROR: Failed to read key bindings from:\n%1\n
 EXEC-BEGIN (UNSUPRESSED): %s
@@ -3958,6 +4086,7 @@ Error (problem that prevents task success)
 EscapePressed
 Evaluate the curve at the specified input position
 Evaluate the gradient at a position between 0 and 1
+Evaluate the requirements of each connected node
 Exclude
 ExecuteOperation
 Executing External tool: %s\n
@@ -4003,6 +4132,7 @@ Failed to save colors: %s\n
 Fast Asset Search
 FastAssetPicked
 FatColor_t
+File
 File '%1'
 File Hierarchy
 Files Belonging to Selected Assets
@@ -4024,6 +4154,7 @@ Find all the yielded cursors on this graph and cancel them.
 Find all the yielded cursors on this graph with the matching tag and cancel them.
 Find:
 FindItemsOverlapping
+Fire And Forget
 FitAllInView
 Fix Assets?
 Fix selected assets...
@@ -4051,6 +4182,7 @@ FocusOut
 FocusStringFilter
 FoliageAnimation
 Follow user preference
+Font
 For an asset to match, it must have ALL of the 'include' tags rather than any of them
 ForceRelayoutOfAllScenes
 Foreground
@@ -4064,6 +4196,13 @@ Fractional component (ie. returns 0.34 for 12.34)
 Free
 Full\t(Asset and ALL associates)
 G ?toggle@QAbstractButton@@QEAAXXZ
+GET_ARRAY_ELEMENT
+GET_BLACKBOARD_REFERENCE
+GET_CONST
+GET_CONST_INLINE_STORAGE
+GET_DOMAIN_VALUE
+GET_VAR
+GET_VAR_DETACH
 GROUP
 GROUP_BACKGROUND
 G\v?event@QHeaderView@@MEAA_NPEAVQEvent@@@Z
@@ -4090,6 +4229,7 @@ GlobalAssetBrowserContext
 GlobalHotkeys
 GlobalTopLevel
 GotoAsset
+Gradient
 Gradient()
 GraphCanvasBackgroundImageSize_t
 GraphCanvasBackgroundPosition_t
@@ -4161,6 +4301,7 @@ IAssetNameStringAdapter
 IAssetSelectionListener
 IAssetTagListener
 IBindTarget
+ICON
 IDynamicWidgetHost
 IEmbeddedAssetBrowser
 IEmbeddedAssetPicker
@@ -4171,8 +4312,10 @@ IGridViewWidgetProvider
 IHelpChangeListener
 IKV3TransferInterface_ResourceSave
 ILiveEmbeddedPreviewStateListener
+IMMEDIATE_HALT
 IMPORTMODEL 
 INSIDE_PARENT
+INVALID
 ISemiModalAssetBrowser
 ISubasset*
 IToolFrameListener
@@ -4210,6 +4353,7 @@ Indicate that a checkpoint has been reached.
 IndicateEditorStateModified
 Indicates a test failure if Value is false.
 Indicates a test failure if value is false; only tested when running unit tests
+InfoForResourceTypeIPulseGraphDef
 InitIncrementalOperation
 InitItem
 Input Binding Error
@@ -4224,6 +4368,8 @@ Integrate
 Integrate Files
 Integration commands printed!
 InteractionPriority
+Interval Timer
+Invalid
 Invalid 'dockWidgetArea (%s)
 Invalid 'toolbarArea' (%s)
 Invalid color string '%s' (Must be '#rgb' '#rgba' '#rrggbb' '#rrggbbaa' or color name)
@@ -4240,8 +4386,11 @@ InvokeCommand
 Is In Test Mode
 Is Valid Vector
 Is Valid World Vector
+Item
 ItemDoubleClicked
 J ?toggleViewAction@QToolBar@@QEBAPEAVQAction@@XZ
+JUMP
+JUMP_COND
 J\r?hitButton@QPushButton@@MEBA_NAEBVQPoint@@@Z
 J\tV_modfd
 J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
@@ -4261,9 +4410,18 @@ Kill Cursors With Tag
 Kill This Cursor And Cancel
 Kill This Cursor And Fail
 LAST_CHILD
+LAST_SERIALIZED_CODE
+LEFT
+LIBRARY_INVOKE
 LMouse
 LMouseDoubleClick
 LT?pixel@QImage@@QEBAIHH@Z
+LTE_FLOAT
+LTE_GAMETIME
+LTE_INT
+LT_FLOAT
+LT_GAMETIME
+LT_INT
 L\r?hitButton@QToolButton@@MEBA_NAEBVQPoint@@@Z
 L\t?canDropMimeData@QAbstractItemModel@@UEBA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
 L\v?event@QListView@@MEAA_NPEAVQEvent@@@Z
@@ -4292,6 +4450,7 @@ LayoutSystem_PlaceInRegion_R
 Layout_CalcDesiredSize_R
 Layout_CalcDesiredSize_R::ForceCollapsed
 Leap to Chunk C%d
+Left
 Left Mouse (Point)
 Length (magnitude) of Vector
 Length (magnitude) of Vector2D
@@ -4302,10 +4461,13 @@ Lerp Vector
 Lerp World Vector
 Less R%d <- R%d < R%d
 LessEq R%d <- R%d <= R%d
+Library for interacting with pulse cursors.
 LightRigType_t
 LightingControl
 LightmapUV
 LightmapUVW
+Limit Count
+Linear
 List
 Live
 LoadKV3Object error: %s\n
@@ -4323,9 +4485,13 @@ MAtomicTransfersAsPlainString
 MENU
 MMouse
 MMouseDoubleClick
+MOD_FLOAT
+MOD_INT
 MPropertyFlattenIntoParentRow
 MPulseExpressionAlias
 MPulseFunctionHiddenInTool
+MUL_FLOAT
+MUL_INT
 MWheelDn
 MWheelLeft
 MWheelRight
@@ -4363,6 +4529,7 @@ MaxSizeY
 Maximum
 Maximum of two values (float)
 Maximum of two values (int)
+Medium
 Millisecond delay between typing in the assetbrowser filter and the filter being applied
 Min Float
 Min Int
@@ -4418,6 +4585,7 @@ MoveCameraRight3D
 MoveCameraUp3D
 MoveUnusedAssets
 Movement Speed: %0.*fx   [%s] to reset
+MovementGaitId_t
 Mul R%d <- R%d * R%d
 Multisample Mode:
 Mute Game (In Tools)
@@ -4430,9 +4598,34 @@ N?height@QPaintDevice@@QEBAHXZ
 N?height@QPixmap@@QEBAHXZ
 N?horizontalAdvance@QFontMetrics@@QEBAHAEBVQString@@H@Z
 N?index@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
+NEGATE
+NEGATE_FLOAT
+NEGATE_INT
+NEGATE_VEC2
+NEGATE_VEC3
+NEGATE_VEC4
+NE_ARRAY
+NE_BOOL
+NE_COLOR_RGB
+NE_EHANDLE
+NE_ENTITY_NAME
+NE_FLOAT
+NE_GAMETIME
+NE_INT
+NE_OPAQUE_HANDLE
+NE_PANEL_HANDLE
+NE_SCHEMA_ENUM
+NE_STRING
+NE_TEST_HANDLE
+NE_VEC2
+NE_VEC3
+NE_VEC3WS
+NE_VEC4
 NO COMMAND TARGET
 NODES
+NONE
 NONINTERACTIVE
+NO_FLAGS
 NO_UI
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 NTH_CHILD
@@ -4458,6 +4651,7 @@ New Game Tag
 New Set
 New Working Set
 New Working Set Name
+New child cursor starts here every time the wait interval elapses
 NewValueAccepted
 NewWorkingSetAction
 No Active Window
@@ -4481,6 +4675,7 @@ No signal '%s'
 No slot '%s'
 NoAttr
 NoRepeat
+Node
 NodeID %d port '%s' called from C%d:I%d
 Non-Asset Child
 Non-Asset Content Dependency
@@ -4488,6 +4683,7 @@ Non-Asset Game Dependency
 Non-Asset Reference
 Non-Asset Weak Reference
 NoneSelected
+Normalize Vector
 Normalize Vector a
 Not At Head: %s\n
 Not R%d <- !R%d
@@ -4701,6 +4897,7 @@ OnWorkingSetChanged
 OnWorkingSetRenamed
 OnWorkingSetRenamed_Internal
 OnYearEdited
+OngoingNotify
 Only show asset leaf names
 Only showing leaf names of assets
 Only wrote %d (of %d) values when saving map!
@@ -4736,9 +4933,12 @@ Optional. After taking an OnFailed outflow, signal to any observers that this cu
 Optional. Type 'Any'. An associated value, e.g. the Entity Handle which is responsible for this Cursor. The Tag is defined by the unique combination of Name and Value.
 Options...
 Or R%d <- R%d || R%d
+Orientation
+Origin
 Other Tools
 Other assets referencing or depending on this
 Outflow List
+OutflowWithRequirements_t
 Outside
 OverflowIndicator
 OverflowIndicator_Depth
@@ -4754,8 +4954,12 @@ P?isValid@QTextCharFormat@@QEBA_NXZ
 P?item@QStandardItemModel@@QEBAPEAVQStandardItem@@HH@Z
 P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
+PANEL_ID
+PGDInstruction_t
 PORT
 PREVIEW
+PULSE_CALL_ASYNC_FIRE
+PULSE_CALL_SYNC
 P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
 PackedBlobNormal
 Padding
@@ -4778,7 +4982,12 @@ PanoramaLayout
 PanoramaStyle
 PanoramaVideo
 Parent Asset(s)
+Parent Map
+Parent Map Entity
 Parent Map: %s\n
+Parent VMDL
+Parent XML
+Parent XML Panel
 Parent or child assets
 ParentChildAssetHovered
 ParentChildAssetSelected
@@ -4813,6 +5022,7 @@ Physics
 Pick
 PickCancelled
 PickColor
+Pitch
 PitchCameraDown
 PitchCameraUp
 PivotPaint
@@ -4825,6 +5035,7 @@ Port_Strong
 Port_Weak
 PosX
 PosY
+Position
 Positioning
 PostListChange
 PreGatherStyles
@@ -4837,6 +5048,7 @@ Preview
 Preview Anim Slider Enabled
 Preview Menu Enabled
 Previous
+Private
 Process Selector
 PropEdModifyType_t
 PropEdSpecificAttr_t
@@ -4849,6 +5061,34 @@ Pseudo-Classes
 Pull From Global Browser
 PullSelectionFromGlobalBrowser
 Pulse domain which enables particle content to query leaf code to introspect game state.
+PulseApiFeature_t
+PulseBestOutflowRules_t
+PulseCursorExecResult_t
+PulseCursorID_t
+PulseCursorYieldToken_t
+PulseDomainValueType_t
+PulseGraphExecutionHistoryCursorDesc_t
+PulseGraphExecutionHistoryEntry_t
+PulseGraphExecutionHistoryNodeDesc_t
+PulseGraphInstanceID_t
+PulseInstructionCode_t
+PulseMethodCallMode_t
+PulseNodeDynamicOutflows_t
+PulseNodeDynamicOutflows_t::DynamicOutflow_t
+PulseObservableBoolExpression_t
+PulseRuntimeBlackboardReferenceIndex_t
+PulseRuntimeCallInfoIndex_t
+PulseRuntimeCellIndex_t
+PulseRuntimeConstantIndex_t
+PulseRuntimeDomainValueIndex_t
+PulseRuntimeEntrypointIndex_t
+PulseRuntimeInvokeIndex_t
+PulseRuntimeOutputIndex_t
+PulseRuntimeRegisterIndex_t
+PulseRuntimeStateOffset_t
+PulseRuntimeVarIndex_t
+PulseSelectorOutflowList_t
+PulseVariableKeysSource_t
 Push Material to Blender
 Push Model to Blender
 Push To Global Browser
@@ -4914,10 +5154,16 @@ R?metric@QPixmap@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
 R?mimeData@QStandardItemModel@@UEBAPEAVQMimeData@@AEBV?$QList@VQModelIndex@@@@@Z
 R?mimeTypes@QStandardItemModel@@UEBA?AVQStringList@@XZ
 R?modifiers@QKeyEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
+REINTERPRET_INSTANCE
 REM skipped compiled file: %s\n
+REQUIREMENT_FAIL
+REQUIREMENT_PASS
 RESIZE_CORNER
 RESIZE_EDGE
+RETURN_VALUE
+RETURN_VOID
 REVERT
+RGBA
 RGBA\t%1\t%2\t%3\t%4
 RIGHT
 RMouse
@@ -5030,10 +5276,12 @@ Revision Helper: %1 Assets
 RevisionHelper
 RichItemList_Accept
 RichItemList_Reject
+Right
 Right Mouse (Average)
 RightClick
 RightClickHierarchy
 RightClickSelectedAssets
+Roll
 Root Files:
 RootAsset
 RotateAboutTarget3D
@@ -5045,8 +5293,20 @@ S?openUrl@QDesktopServices@@SA_NAEBVQUrl@@@Z
 S?paint@QIcon@@QEBAXPEAVQPainter@@AEBVQRect@@V?$QFlags@W4AlignmentFlag@Qt@@@@W4Mode@1@W4State@1@@Z
 S?paintEngine@QImage@@UEBAPEAVQPaintEngine@@XZ
 S?paintEngine@QPixmap@@UEBAPEAVQPaintEngine@@XZ
+SCALE
+SCALE_INV
+SCALE_INV_VEC2
+SCALE_INV_VEC3
+SCALE_INV_VEC4
+SCALE_VEC2
+SCALE_VEC3
+SCALE_VEC4
 SELECTED
 SELECTION_OVERLAY
+SET_BLACKBOARD_REFERENCE
+SET_VAR
+SET_VAR_ARRAY_ELEMENT_1D
+SET_VAR_OBSERVABLE
 SIG_OnDeleteSelectedWorkingSet
 SLIDER_BACKFILL_EMPTY
 SLIDER_BACKFILL_HARD
@@ -5070,11 +5330,24 @@ SLIDER_VALTEXT_CENTER
 SLIDER_VALTEXT_HIDDEN
 SLIDER_VALTEXT_LEFT
 SLIDER_VALTEXT_RIGHT
+SORT_BY_NUMBER_OF_VALID_CRITERIA
+SORT_BY_OUTFLOW_INDEX
 SP?isNull@QPixmap@@QEBA_NXZ
 SPECIAL_DEBUGGER_OVERLAY
 SPECIAL_LAYER_HOVER_TOOLTIP
 STANDARD_LAYER_COUNT
 STANDIN: %1
+STRETCH
+SUB_FLOAT
+SUB_GAMETIME
+SUB_GAMETIME_FLOAT
+SUB_INT
+SUB_VEC2
+SUB_VEC3
+SUB_VEC3WS_VEC3
+SUB_VEC3WS_VEC3WS
+SUB_VEC4
+SYNC_WAIT_FOR_COMPLETION
 Sa?width@QPaintDevice@@QEBAHXZ
 Sample Pixel Color
 Saturate
@@ -5086,6 +5359,7 @@ Save description
 Save the current search in the Saved Search list below.
 SavedSearchSaved
 SavedSearchSelected
+Scale
 Scale INV R%d <- R%d / R%d
 Scale R%d <- R%d * R%d
 Scan for assets that require specific attention.
@@ -5096,6 +5370,7 @@ ScrToggle
 Search:
 Segoe UI,11,-1,5,50,0,0,0,0,0,Regular
 Select
+Select Best Exit
 Select Pending Changelist
 Select a part to add to the filter
 Select some files first.
@@ -5218,13 +5493,17 @@ Sign Float
 Sign Int
 Signal '%s' not compatible with slot '%s'
 Signature hook to fill out arguments for OnInterval
+SignatureOutflow_Continue
+SignatureOutflow_Resume
 Similar to HALIGN, but for where text should be rendered
 Similar to VALIGN, but for where text should be rendered
 SimpleTooltip
 SimpleTooltipCtn
+Sine
 Sine of angle. Input in radians, output in radians
 SizePolicy
 SizePolicy array must have two elements
+Skip this node after the limit. Check Type does not apply, the limit will always be checked.
 Small
 Smaller
 SnapCameraToSelection
@@ -5253,6 +5532,7 @@ Spotlight
 Sqr Float
 Sqr Int
 Sqrt
+Square
 Square root
 Standin Dock
 Start a timer with the specified duration, fire the OnInterval output 
@@ -5261,6 +5541,7 @@ Statistics...
 Stop Timer
 Stop any active timers - the completed outflow will still fire
 StopSendingCameraTo
+Stretch
 Strings Are Equal Case Sensitive
 Strong Ref
 Style of the background. By default it is SolidPattern.
@@ -5272,8 +5553,10 @@ Subasset Definitions
 Subasset References
 Subasset definitions
 Subasset references
+Succeeded
 Switch to 'All Assets'
 SwitchToEngineWindow
+Synchronous - wait for the method to fully complete before returning
 T?parent@QStandardItemModel@@UEBA?AVQModelIndex@@AEBV2@@Z
 T?pos@QCursor@@SA?AVQPoint@@XZ
 T?pos@QDropEvent@@QEBA?AVQPoint@@XZ
@@ -5297,7 +5580,9 @@ Tangent of angle. Input in radians, output in radians
 TermIncrementalOperation
 Test Mode Assert True
 TestCheckpoint: %s
+Testing script helpers.
 Text = "%1"
+Text Color
 TextClipMode
 TextHAlign
 TextProgramaticallyChanged
@@ -5409,6 +5694,7 @@ VBOX_REVERSE
 VConsole
 VData:%s
 VISIBLE
+VMDL
 VNOTIFY_DISABLE
 VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
@@ -5467,6 +5753,10 @@ WIDGET DEBUGGER DELETING widget: 0x%p\n
 WORD_WRAP
 WP?isNull@QTextCursor@@QEBA_NXZ
 Wait Complete
+Wait For Completion
+Wait For Cursors With Tag
+Wait For Observable Condition
+Wait for a duration, firing a child cursor at regular (or randomized) intervals
 WarnAboutMissingFiles
 WarnAboutUncompiledFiles
 WarnTrailingWhitespace
@@ -5482,6 +5772,7 @@ Warning:\nThe following paths were referenced but are not present on disk!\nThey
 Weak Ref
 When False
 When True
+When we start waiting, how should we handle existing cursors?
 Where a child should be aligned on the horizontal axis:
 Where a child should be aligned on the vertical axis:
 Where an item should be laid out relative to its parent:
@@ -5491,6 +5782,7 @@ Whether an item can be selected when the user draws a box on the canvas or not.
 Whether the background image repeats and how
 Whether the hittest region for an item should include its margin.
 Whether this item should propagate clicks to its ancestor items even when the click is outside their bounds. (Useful for flyout buttons)
+While active, activate a child state based on the results of a boolean condition. Any referenced variables must be marked as observable.
 Widget Debugger
 Widget Properties
 WidgetAssetAcceptedByListener
@@ -5933,6 +6225,17 @@ central_widget
 chartreuse
 checkstate
 chocolate
+cl_aggregate_particles
+cl_particle_batch_mode
+cl_particle_fallback_base
+cl_particle_fallback_multiplier
+cl_particle_max_count
+cl_particle_retire_cost
+cl_particle_sim_fallback_base_multiplier
+cl_particle_sim_fallback_threshold_ms
+cl_particle_simulate
+cl_particles_dumplist
+cl_particles_dumpsimlist
 clamp
 className
 clear_filter
@@ -6038,11 +6341,13 @@ fixed_width
 flDegrees
 flDuration
 flElapsed
+flExecTime
 flExponent
 flFloat
 flFrac
 flInputA
 flInputB
+flLastReferenced
 flOutputA
 flOutputB
 flPercentage
@@ -6252,12 +6557,14 @@ increase_depth_button
 index
 indianred
 indigo
+info
 info_description
 info_table
 initial
 is_cqbasegridview_panel
 is_selector
 italic
+item
 ivory
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
 jZ?setMimeData@QDrag@@QEAAXPEAVQMimeData@@@Z
@@ -6310,29 +6617,173 @@ lowprecisionuv1
 mX?setBlueF@QColor@@QEAAXN@Z
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m\n?dragEnterEvent@QPlainTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+m_Background
+m_BackgroundMap
 m_Bindings
+m_BlackboardReferences
+m_BlackboardResource
+m_CallInfos
+m_CallMethodID
+m_Cells
+m_Chunks
+m_Command
+m_Completed
+m_Condition
+m_Connection
+m_Constants
 m_Context
+m_DependentObservableBlackboardReferences
+m_DependentObservableVars
+m_DestinationFlowNodeID
+m_DomainValues
+m_EndTime
+m_EvaluateConnection
+m_EventOutflow
+m_ExpectedParamType
+m_Exposure
+m_FailOutflow
+m_FuncName
+m_GameBlackboard
+m_Gradient
+m_Grid
+m_HookName
+m_Input
 m_InputMacros
+m_InstructionDebugInfos
+m_Instructions
+m_InvokeBindings
+m_MapName
+m_NodeName
+m_OnInterval
+m_OnTrue
+m_OriginName
+m_OutflowList
+m_Outflows
+m_OutputConnections
+m_OutputIndex
+m_Outputs
+m_ParentMapName
+m_ParentXmlName
+m_PassOutflow
+m_PointLights
+m_PortName
+m_PostProcessing
+m_PublicOutputs
+m_Registers
+m_RequiredRuntimeType
+m_RequirementNodeIDs
+m_SequencePointName
+m_Shuffle
+m_Sky
+m_SourceEntity
+m_SourceOutput
+m_SpotLights
+m_StartTime
 m_Stops
+m_SubGraph
+m_Suns
+m_TagName
 m_TagValue
+m_TargetEntity
+m_TargetInput
+m_TimelineEvents
+m_UnknownKeys
+m_UnyieldResume
+m_Vars
+m_WaitComplete
+m_WhenFalse
+m_WhenTrue
+m_bAnd
 m_bBakedTwoSided
 m_bCanBatchWithDynamicShaderConstants
+m_bCastShadows
+m_bCompleteOnNextWake
 m_bConditionValue
 m_bDrawLast
 m_bFirstEvaluate
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
 m_bIsNotMatchedToMaterial
+m_bIsObservable
+m_bIsValid
+m_bLimitCountPasses
 m_bNoShadow
 m_bOnlyShadow
+m_bParentToCamera
+m_bParticlesTraceAgainstMap
+m_bRelativePositioning
+m_bRender3DSkybox
+m_bSelfReference
+m_bTagSelfWhenComplete
 m_bUseCompressedNormalTangent
 m_bUseShadowFastPath
 m_externalMethodTargetGraph
+m_flAxisScale
+m_flBrightness
+m_flDistance
+m_flInnerConeAngle
+m_flLightSourceRadius
+m_flMaxEV
+m_flMinEV
+m_flOuterConeAngle
+m_flPosition
+m_flRadius
+m_flShadowCascadeDistance0
+m_flShadowCascadeDistance1
+m_flShadowCascadeDistance2
+m_flShadowCascadeDistance3
 m_flSlopeIncoming
 m_flSlopeOutgoing
+m_flTimeFromPrevious
+m_flWaitInterval
+m_flWaitIntervalHigh
+m_hBlackboardResource
+m_hPostProcessing
+m_hSkyMaterial
+m_mapCellDesc
+m_mapCursorDesc
+m_nAsyncCallMode
+m_nBlackboardReference
+m_nBlackboardReferenceIdx
+m_nCallInfoIndex
+m_nCellIndex
+m_nCheckType
+m_nChunk
+m_nCode
+m_nConstIdx
+m_nCurrentCount
 m_nCurrentWakeIndex
+m_nCursorStateBlockIndex
+m_nCursorsAllowedToRunParallel
+m_nCursorsAllowedToWait
+m_nDesiredKillPriority
+m_nDestInstruction
+m_nDomainValueIdx
+m_nFlowNodeID
 m_nGraphID
+m_nInstanceID
+m_nInvokeBindingIndex
+m_nLastReadByInstruction
+m_nLimitCount
+m_nNextIndex
+m_nNextShuffle
+m_nNodeID
+m_nReg
+m_nReg0
+m_nReg1
+m_nReg2
+m_nRigType
+m_nSrcChunk
+m_nSrcInstruction
+m_nValueNodeID
+m_nVar
+m_nWrittenByInstruction
+m_sId
+m_strFileName
 m_tail != QUEUE_ITERATOR_INVALID
+m_vDirection
+m_vLookAt
+m_vecHistory
 magenta
 mapped
 margin
@@ -6370,6 +6821,7 @@ materials/tools/wireframe_vertex_color.vmat
 materials/tools/wireframe_vertex_color_translucent.vmat
 maxValue
 max_links_edit
+maximum
 medium
 mediumaquamarine
 mediumblue
@@ -6383,25 +6835,35 @@ mediumvioletred
 menu
 menuAction
 menus
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 midnightblue
 minValue
+minimum
 mintcream
 mistyrose
 moccasin
 mod_selection
 modelIndex
 modelSortOrderChanged
+model_default_preview_sequence_name
 modeldoc_editor
 monitor_pid
 nAlpha
 nAssetCount
 nCol
 nColumn
+nCount
+nCursorID
 nDelayInMS
 nDenominator
+nEditorID
 nEngineToolID
 nGroup
+nIndex
 nKillPriority
+nLastValidEntryIdx
 nLogicalIndex
 nMaxElements
 nMode
@@ -6409,12 +6871,15 @@ nModifiers
 nMouseButton
 nNumerator
 nOptionIndex
+nRetiredAtNodeID
 nRow
 nSecondaryId
+nSpawnNodeID
 nTabIndex
 nTagHandle
 nToolID
 nToolId
+nType
 nValue
 nX?setBold@QFont@@QEAAX_N@Z
 n\n?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
@@ -6460,6 +6925,7 @@ pDescription
 pFilter
 pFromSelectionWidget
 pGroup
+pItem
 pLightRigButton
 pOutSelection
 pPrevFocusWidget
@@ -6484,6 +6950,7 @@ paleturquoise
 palevioletred
 panorama/images/
 papayawhip
+particle_debug_creation_filter
 pathFilter
 peachpuff
 peru
@@ -6509,6 +6976,11 @@ q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 qcontrols
 quiet
 r\f?copy@QPixmap@@QEBA?AV1@AEBVQRect@@@Z
+r_freezeparticles
+r_limit_particle_job_duration
+r_particle_timescale
+r_threaded_particle_creation
+r_threaded_particles
 rad2deg
 rebeccapurple
 recompile
@@ -6580,12 +7052,15 @@ stacked_one
 std::optional
 std_optional
 steelblue
+strBindingName
+strCellDesc
 stretch
 t\n?beginEditBlock@QTextCursor@@QEAAXXZ
 t\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@AEBVQMetaMethod@@01W4ConnectionType@Qt@@@Z
 tabStyle
 tabify
 tabs
+tagName
 tagValue
 tag_selection
 tangent
@@ -6624,7 +7099,13 @@ tools/images/common/generic_filter_or.png
 tools/images/common/generic_filter_remove_part.png
 tools/images/common/icon_warning_sm.png
 tools/images/pulse_editor/cursor_kill.png
+tools/images/pulse_editor/cursor_tag.png
+tools/images/pulse_editor/cursor_wait_zone.png
+tools/images/pulse_editor/inflow_statecell.png
 tools/images/pulse_editor/kill_cursor_with_tag.png
+tools/images/pulse_editor/node_timer.png
+tools/images/pulse_editor/observable_variable_listener.png
+tools/images/pulse_editor/requirements.png
 tools/keybindings/assetbrowser_key_bindings.txt
 tools/keybindings/global_key_bindings.txt
 tools/layout/assetbrowser/asset_graph_view.vqlayout
@@ -6635,6 +7116,7 @@ tools/layout/common/graph_canvas_debugger.vqlayout
 toolsVisModeIndex
 tools_preview
 tools_renderscenes
+toolscenelightrigs.vdata
 transparent
 tree
 turquoise
@@ -6643,6 +7125,7 @@ uT?pointAtPercent@QPainterPath@@QEBA?AVQPointF@@N@Z
 uV?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
 u\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
 u\v?eventFilter@QAbstractItemView@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
+unFlags
 underline
 unmodified
 unmodified (deleted at head)
@@ -6661,6 +7144,7 @@ valueEdited
 vbox
 vcenter
 vdata_editor
+vecAncestorCursorIDs
 vecValue
 vecValueA
 vecValueB
@@ -6696,6 +7180,9 @@ z\tV_tand
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 { "%1",\t{ %2, %3 },\t\t{ %4, %5 }\t },\n
+{ className = 'IsControlFlowNode' }
+{ className = 'IsStateNode' item_factory = 'BooleanSwitchState' }
+{ className='IsControlFlowNode AllOutflowsInSpecialSection IsSelectorNode' create_special_outflows_section=true }
 {ColNo}
 {ContentFolder}
 {FileFolder}

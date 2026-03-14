@@ -2625,6 +2625,22 @@ A%mB,
 ACTIVITY WEIGHTS
 ACT_IDLE
 ACT_NEUTRAL_REF_POSE
+ADD_FLOAT
+ADD_FLOAT_GAMETIME
+ADD_GAMETIME_FLOAT
+ADD_INT
+ADD_STRING
+ADD_VEC2
+ADD_VEC3
+ADD_VEC3WS_VEC3
+ADD_VEC3_VEC3WS
+ADD_VEC4
+AF_ENTITIES
+AF_FAKE_ENTITIES
+AF_NONE
+AF_PANORAMA
+AF_PARTICLES
+AF_SELECTORS_WITHOUT_REQUIREMENTS
 ANDROID_VULKAN
 ANDROID_VULKAN_4_0
 ANDROID_VULKAN_4_1
@@ -2648,6 +2664,7 @@ Add New Attribute. Click Attribute Cells To Modify
 Add R%d <- R%d + R%d
 Add the array 'b' to the end of 'a'.
 AddColor
+Additive
 Addr
 Address
 AdobeDeflate
@@ -2673,6 +2690,9 @@ AngularSpan
 Annotate Favorite...
 AntiAliasStrength
 Any Other Cursors Have Tag
+Any cursors above this count will wait, up to the limit.
+Any extra waiting cursors will be terminated. -1 for infinite cursors.
+Apply the same tag we're waiting on to the resulting cursor upon wait completion. Can be used to wait on our result cursor with the same tag.
 Arc Cos
 Arc Cosine of input value. Input must be -1.0, 1.0 range. Output in radians, from 0 to 
 Arc Sin
@@ -2692,6 +2712,7 @@ Array Remove Index
 Array Remove Invalid Elements
 Array Set Count
 Array Shuffle
+Array support.
 Artist
 AsShotICCProfile
 AsShotNeutral
@@ -2701,6 +2722,7 @@ Assert True
 Asset Browser
 Assets
 Async Fire C%d:I%d
+Asynchronous - returns and continues despite the called method yielding
 AtlasToVolumeTextureConversion(3089): Error! Unable to parse grid/slice count from volume atlas filename: %s\n
 Attempting to register the command %s for context %s multiple times\n
 Attributes Used:
@@ -2741,6 +2763,7 @@ Base-2 logarithm
 BaselineExposure
 BaselineNoise
 BaselineSharpness
+Basic math support.
 BayerGreenSplit
 Begin mouse capture [%i]: %s\n
 Begin testing a condition composed of Observable values. Continues checking until canceled.
@@ -2765,6 +2788,7 @@ Blur7
 Blur8
 Blur9
 Bool (expression) = 
+Boolean Switch State
 Brightness Adjustments
 Browse For Rectangle File
 Browse...
@@ -2785,12 +2809,15 @@ CCITT Group 4
 CCITT RLE
 CCITT RLE/W
 CColorGradient
+CELL_INVOKE
 CEntityNameString
 CFALayout
 CFAPlaneColor
 CGlobalHotkeyCommands
 CGlobalSymbol
 CGlobalSymbolCaseSensitive
+CHUNK_LEAP
+CHUNK_LEAP_COND
 CInputBindManager::HandleInputCode recursion depth got too deep.\n
 CKV3MemberNameSet
 CKV3MemberNameWithStorage
@@ -2800,8 +2827,14 @@ COMMAND_TEXT_MODE_MENU
 COMMAND_TEXT_MODE_NONE
 COMMENT
 COMMON
+CONVERT_VALUE
+COPY
+COUNT
+CParticleBindingRealPulse
+CParticleCollectionBindingInstance
 CParticleCollectionBindingInstance::HACK_UnusedBinding
 CPiecewiseCurve
+CPulseArraylib
 CPulseArraylib::ArrayAppend
 CPulseArraylib::ArrayConcatenate
 CPulseArraylib::ArrayCount
@@ -2812,30 +2845,56 @@ CPulseArraylib::ArrayRemoveIndex
 CPulseArraylib::ArrayRemoveInvalidElements
 CPulseArraylib::ArraySetCount
 CPulseArraylib::ArrayShuffle
+CPulseCell_BaseLerp::CursorState_t
+CPulseCell_BaseState
+CPulseCell_BooleanSwitchState
 CPulseCell_BooleanSwitchState::Activate
+CPulseCell_CursorQueue
 CPulseCell_CursorQueue::Wait
+CPulseCell_FireCursors
 CPulseCell_FireCursors::Cancel
 CPulseCell_FireCursors::Start
 CPulseCell_Inflow_EntOutputHandler '%s'.'%s' --> Chunk%d: %s
 CPulseCell_Inflow_EventHandler '%s' --> Chunk%d: %s
 CPulseCell_Inflow_GraphHook '%s' --> Chunk%d: %s
 CPulseCell_Inflow_ObservableVariableListener '%s'.'%s (%u)' --> Chunk%d: %s
+CPulseCell_InlineNodeSkipSelector
 CPulseCell_InlineNodeSkipSelector::ProcessSelector
+CPulseCell_IntervalTimer
+CPulseCell_IntervalTimer::CursorState_t
 CPulseCell_IntervalTimer::OnInterval
 CPulseCell_IntervalTimer::Start
 CPulseCell_IntervalTimer::StopTimer
+CPulseCell_IsRequirementValid
 CPulseCell_IsRequirementValid::CheckRequirement
+CPulseCell_IsRequirementValid::Criteria_t
+CPulseCell_LimitCount
 CPulseCell_LimitCount::CheckRequirement
 CPulseCell_LimitCount::CommitStep
+CPulseCell_LimitCount::Criteria_t
+CPulseCell_LimitCount::InstanceState_t
+CPulseCell_Outflow_CycleOrdered::InstanceState_t
+CPulseCell_Outflow_CycleShuffled::InstanceState_t
+CPulseCell_PickBestOutflowSelector
 CPulseCell_PickBestOutflowSelector::ProcessSelector
 CPulseCell_Step_CallExternalMethod '%s'
+CPulseCell_Timeline
 CPulseCell_Timeline::Start
 CPulseCell_Timeline::Stop
+CPulseCell_Timeline::TimelineEvent_t
+CPulseCell_Unknown
+CPulseCell_Value_Curve
 CPulseCell_Value_Curve::Eval
+CPulseCell_Value_Gradient
 CPulseCell_Value_Gradient::Eval
+CPulseCell_WaitForCursorsWithTag
 CPulseCell_WaitForCursorsWithTag::Wait
+CPulseCell_WaitForCursorsWithTagBase
+CPulseCell_WaitForCursorsWithTagBase::CursorState_t
+CPulseCell_WaitForObservable
 CPulseCell_WaitForObservable::Cancel
 CPulseCell_WaitForObservable::Start
+CPulseCursorFuncs
 CPulseCursorFuncs::AnyOtherCursorsHaveTag
 CPulseCursorFuncs::CursorHasTag
 CPulseCursorFuncs::KillAllOtherCursors
@@ -2844,6 +2903,9 @@ CPulseCursorFuncs::KillThisCursorAndCancel
 CPulseCursorFuncs::KillThisCursorAndFail
 CPulseCursorFuncs::RemoveTagFromCursor
 CPulseCursorFuncs::TagCursor
+CPulseGraphDef
+CPulseGraphExecutionHistory
+CPulseMathlib
 CPulseMathlib::AbsFloat
 CPulseMathlib::AbsInt
 CPulseMathlib::ArcCos
@@ -2912,11 +2974,24 @@ CPulseMathlib::StringsAreEqualCaseSensitive
 CPulseMathlib::Tan
 CPulseMathlib::VectorToWorldVector
 CPulseMathlib::WorldVectorToVector
+CPulseTestScriptLib
 CPulseTestScriptLib::AssertTrue
 CPulseTestScriptLib::IndicateTestFailure
 CPulseTestScriptLib::IsInTestMode
 CPulseTestScriptLib::RegisterTestCheckpoint
 CPulseTestScriptLib::TestModeAssertTrue
+CPulse_BlackboardReference
+CPulse_CallInfo
+CPulse_Chunk
+CPulse_Constant
+CPulse_DomainValue
+CPulse_InstructionDebug
+CPulse_InvokeBinding
+CPulse_OutflowConnection
+CPulse_OutputConnection
+CPulse_PublicOutput
+CPulse_RegisterInfo
+CPulse_Variable
 CQAngularSpanControl
 CQAngularSpanPreviewWidget
 CQAnnotateCaptureDialog
@@ -3057,6 +3132,9 @@ CQWidgetDebugger
 CQWidgetList
 CQWorldMappingWidget
 CStrongHandle
+CURSOR_ADD_TAG
+CURSOR_REMOVE_TAG
+CURSOR_RETIRED
 CURVE_TANGENT_FREE
 CURVE_TANGENT_MIRROR
 CURVE_TANGENT_SINE
@@ -3092,12 +3170,14 @@ Cache Status Changed
 CalibrationIlluminant1
 CalibrationIlluminant2
 Call C%d:I%d (%s)
+Called when timer reaches the duration OR is stopped. NOTE: This will run a little while AFTER the last interval fires unless they line up perfectly.
 CameraCalibration1
 CameraCalibration2
 CameraSerialNumber
 Can not read scanlines from a tiled image
 Cancel
 Cancel observing.
+Canceled
 Cannot Debug
 Cannot add multiple root layouts to the same widget
 Cannot break - no debugger attached!
@@ -3114,6 +3194,8 @@ Caps
 Capture Favorite
 Capture current state as favorite.
 Categories
+Causes each execution cursor to wait for the completion of all prior cursors that have visited this node. Use this to safely support multiple triggers to areas of the graph that take time to complete.
+Causes this execution cursor to wait for the completion of other cursors with the given tag. Can optionally kill the tag while waiting.
 Ceiling - round float up to nearest integer)
 Ceiling Float
 CellLength
@@ -3133,11 +3215,16 @@ Check if the cursor already has the given tag.
 CheckBox
 CheckState
 ChildOf
+Children
+Choose Best
 Choose Color
 Choose Color - "%1"
+Choose First
 Choose Material
 Choose Rectangle Definition
 Choose Texture
+Choose the best outflow with all rules passing, as determined by number of passing rules (specificity).
+Choose the first outflow with all rules passing, from left to right
 ChromaBlurRadius
 Clamp Float
 Clamp Int
@@ -3155,6 +3242,7 @@ Close the group automatically after a short wait (good for 'success' messages)
 Close the group automatically when the associated parent process exits (good for sticky 'error' messages)
 Close the material.
 CloseAction
+Code
 Collapse All Groups
 ColorCorrection
 ColorDialogFinished
@@ -3183,6 +3271,8 @@ Compression scheme %u %s decoding is not implemented
 Compression scheme %u %s encoding is not implemented
 Computes 2 ( 2.71...) raised to a power
 Computes e ( 2.71...) raised to a power
+Condition
+Condition to evaluate when any of its dependent values change.
 Configure Material Editor Options.
 Configure history settings.
 Confirm Reference Change
@@ -3230,11 +3320,15 @@ Ctrl+Z
 CurrentICCProfile
 CurrentPreProfileMatrix
 Cursor Has Tag
+Cursor Queue
 Cursors Allowed To Run Parallel
 Cursors Allowed To Wait
+Curve
 Custom Color
 Custom Colors
 DBM&(
+DETACH_REGISTER
+DIV_FLOAT
 DNGBackwardVersion
 DNGPrivateData
 DNGVersion
@@ -3265,6 +3359,7 @@ DecalFadeDuration
 DecalFadeStartTime
 DecalHeightVariance
 DecalMaxWobbleAngle
+DecalRtEncoding_t
 DecalSizeVariance
 DecalSkinnedModelMode
 DecalWorldHeight
@@ -3290,6 +3385,7 @@ Dependency Status Changed
 Depth Offset: 
 Depth Variance: 
 Depth: 
+Description
 Designable
 Desired Kill Priority
 Detach %i reference%s from '%s'
@@ -3327,6 +3423,8 @@ DragOffsetRelativeUpdate
 DragStarted
 DragUpdated
 DummyNoOp
+Dump all new particles, optional name substring.
+Dump all simulating particles, optional name substring.
 DumpModeDecode: Not enough data for scanline %d
 Dynamic Expression
 Dynamic Expression Editor - %1
@@ -3338,6 +3436,33 @@ DynamicExpressions
 DynamicParams
 E&xit
 E<G&Iw
+ELEMENT_ACCESS
+ELEMENT_ACCESS_COLOR_RGB
+ELEMENT_ACCESS_VEC2
+ELEMENT_ACCESS_VEC3
+ELEMENT_ACCESS_VEC3WS
+ELEMENT_ACCESS_VEC4
+EMaterialLayer_t
+EMaterialVariable_t
+EMaterialVariables_t
+EPulseGraphExecutionHistoryFlag
+EQ_ARRAY
+EQ_BOOL
+EQ_COLOR_RGB
+EQ_EHANDLE
+EQ_ENTITY_NAME
+EQ_FLOAT
+EQ_GAMETIME
+EQ_INT
+EQ_OPAQUE_HANDLE
+EQ_PANEL_HANDLE
+EQ_SCHEMA_ENUM
+EQ_STRING
+EQ_TEST_HANDLE
+EQ_VEC2
+EQ_VEC3
+EQ_VEC3WS
+EQ_VEC4
 ERROR!
 ERROR! LoadFromJPG( %s ) failed!\n
 ERROR! LoadFromPNG( %s ) failed!\n
@@ -3385,6 +3510,7 @@ Entity Class
 Entity Render Attributes:
 EntityName
 EntityRenderAttributeSelected
+Enum
 Eq R%d <- R%d == R%d
 Error (problem that prevents task success)
 Error Evaluating!
@@ -3412,6 +3538,7 @@ EscapePressed
 EstimateStripByteCounts
 Evaluate the curve at the specified input position
 Evaluate the gradient at a position between 0 and 1
+Evaluate the requirements of each connected node
 Exclusive Expansion
 ExclusiveGroupExpansion
 Exit the Material Editor.
@@ -3453,6 +3580,7 @@ Failed to read Reference file
 Failed to read attribute.\n
 Failed to read colors: %s\n
 Failed to save colors: %s\n
+Fast
 Fast Asset Search
 FastAssetPicked
 Fastest
@@ -3483,6 +3611,7 @@ Filtered Magnification
 Find all the yielded cursors on this graph and cancel them.
 Find all the yielded cursors on this graph with the matching tag and cancel them.
 Find:
+Fire And Forget
 Fixed
 Float (expression) = 
 Float To Game Time
@@ -3522,6 +3651,13 @@ FreeByteCounts
 FreeOffsets
 Function %s() expects %d arguments. Found %d.
 G channel not found!\n
+GET_ARRAY_ELEMENT
+GET_BLACKBOARD_REFERENCE
+GET_CONST
+GET_CONST_INLINE_STORAGE
+GET_DOMAIN_VALUE
+GET_VAR
+GET_VAR_DETACH
 GLSL.std.450
 GPSIFDOffset
 G[?setRgb@QColor@@QEAAXHHHH@Z
@@ -3548,6 +3684,7 @@ Goto End
 Goto Start
 Goto first state.
 Goto last state.
+Gradient
 Gradient()
 GrayResponseCurve
 GrayResponseUnit
@@ -3562,6 +3699,7 @@ HEX_DIGIT
 HalftoneHints
 Hammer Surface Properties
 Hammer Texturing
+Height
 Height Variance: 
 Height texture is constant-valued
 HeightBlend
@@ -3572,6 +3710,7 @@ HelpIdPrefix_Default
 HelpIdPrefix_LayeredProperty
 HelperLoadFbmByFileExtension(3061): Error! Unknown file type for %s\n
 Hide unless error/warning occurs
+High
 Highest
 History
 History - %1
@@ -3586,10 +3725,13 @@ I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
 I/O Failure! Could Not Read File.
 IAssetSelectionListener
 ICC Profile
+ICON
 IHelpChangeListener
 IKV3TransferInterface_ResourceSave
+IMMEDIATE_HALT
 IND)ind)sqrtf
 INTEGERLITERAL
+INVALID
 IOS_VULKAN
 IOS_VULKAN_4_0
 IOS_VULKAN_4_1
@@ -3639,6 +3781,7 @@ Indicate Test Failure
 Indicate that a checkpoint has been reached.
 Indicates a test failure if Value is false.
 Indicates a test failure if value is false; only tested when running unit tests
+InfoForResourceTypeIPulseGraphDef
 Inherit from 
 Inherit from Reference...
 Inherited from Reference: <b>%1</b>
@@ -3662,8 +3805,10 @@ Integer Divide
 Integer division - unlike the divide (/) node, this will truncate any remainder (floor) and return an integer.
 Internal error, unknown tag 0x%x
 InteroperabilityIFDOffset
+Interval Timer
 InvTextureDim
 InvViewportSize
+Invalid
 Invalid 'dockWidgetArea (%s)
 Invalid 'toolbarArea' (%s)
 Invalid Material
@@ -3696,6 +3841,8 @@ Is Valid World Vector
 ItemActivated
 J%f%f%f%f%f%f%f%f
 JPEG
+JUMP
+JUMP_COND
 J\r?hitButton@QPushButton@@MEBA_NAEBVQPoint@@@Z
 J\tV_modfd
 J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
@@ -3714,9 +3861,17 @@ Kill All Other Cursors
 Kill Cursors With Tag
 Kill This Cursor And Cancel
 Kill This Cursor And Fail
+LAST_SERIALIZED_CODE
+LIBRARY_INVOKE
 LMouse
 LMouseDoubleClick
 LT?pixel@QImage@@QEBAIHH@Z
+LTE_FLOAT
+LTE_GAMETIME
+LTE_INT
+LT_FLOAT
+LT_GAMETIME
+LT_INT
 LZWDecode: Bogus encoding, loop in the code table; scanline %d
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Not enough data at scanline %d (short %ld bytes)
@@ -3748,6 +3903,7 @@ LayerReference
 Layout Side To Side
 Layout Top To Bottom
 Leap to Chunk C%d
+Left
 Left Mouse (Point)
 Legacy Material Format Not Supported.
 Length (magnitude) of Vector
@@ -3761,11 +3917,14 @@ Lerp World Vector
 Less R%d <- R%d < R%d
 LessEq R%d <- R%d <= R%d
 Lexer encountered %i errors parsing compile targets expression "%s"\n
+Library for interacting with pulse cursors.
 Light
 LightSim_DiffuseAlbedoTexture
 LightmapUV
 LightmapUVW
+Limit Count
 Line length mismatch
+Linear
 LinearResponseLimit
 LinearizationTable
 LoadEXRImageFromMemory failed! Error message: %s\n
@@ -3795,9 +3954,13 @@ MET_Preview
 MMouse
 MMouseDoubleClick
 MODES
+MOD_FLOAT
+MOD_INT
 MPropertyFlattenIntoParentRow
 MPulseExpressionAlias
 MPulseFunctionHiddenInTool
+MUL_FLOAT
+MUL_INT
 MVDataOutlinerLeafNameFn
 MWheelDn
 MWheelLeft
@@ -3830,6 +3993,7 @@ Manual History Captures Only.
 ManualStateCapturesOnly
 Marking %s affected by changed dependency %s\n
 MaskedAreas
+Material
 Material Browser
 Material Layer %i
 Material Loaded.
@@ -3893,6 +4057,7 @@ MissingRequired
 MnZ/rs
 Mod Name
 Mod R%d <- R%d %% R%d
+Model
 Modified
 Modify ToolTips
 MotionVectorsMaxDistance
@@ -3902,6 +4067,7 @@ Mouse5
 Mouse5DoubleClick
 Move to next material state.
 Move to previous material state.
+MovementGaitId_t
 Mul R%d <- R%d * R%d
 Mute Game (In Tools)
 Mute Tools
@@ -3913,7 +4079,33 @@ N?height@QPixmap@@QEBAHXZ
 N?horizontalAdvance@QFontMetrics@@QEBAHAEBVQString@@H@Z
 N?horizontalAdvance@QFontMetrics@@QEBAHVQChar@@@Z
 N?index@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
+NEGATE
+NEGATE_FLOAT
+NEGATE_INT
+NEGATE_VEC2
+NEGATE_VEC3
+NEGATE_VEC4
+NE_ARRAY
+NE_BOOL
+NE_COLOR_RGB
+NE_EHANDLE
+NE_ENTITY_NAME
+NE_FLOAT
+NE_GAMETIME
+NE_INT
+NE_OPAQUE_HANDLE
+NE_PANEL_HANDLE
+NE_SCHEMA_ENUM
+NE_STRING
+NE_TEST_HANDLE
+NE_VEC2
+NE_VEC3
+NE_VEC3WS
+NE_VEC4
 NO COMMAND TARGET
+NONE
+NORMAL
+NO_FLAGS
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 NULL CELL 
 NULL VP8Io parameter in VP8Decode().
@@ -3930,6 +4122,7 @@ Neg R%d <- -R%d
 Neq R%d <- R%d != R%d
 Never close the group automatically (used to indicate an error like the process exiting unexpectedly)
 New Attribute
+New child cursor starts here every time the wait interval elapses
 NewAction
 NewFileAction
 NewValueAccepted
@@ -3969,7 +4162,9 @@ No\nPreview\nAvailable
 NodeID %d port '%s' called from C%d:I%d
 Nonstandard tile length %d, convert file
 Nonstandard tile width %d, convert file
+Normal
 Normal Map Conversion
+Normalize Vector
 Normalize Vector a
 Not R%d <- !R%d
 Not a TIFF file, bad magic number %d (0x%x)
@@ -4042,6 +4237,7 @@ OnClearClicked
 OnClicked
 OnCollapseAllGroups
 OnColorAccepted
+OnColorChanged
 OnColorLineEditingFinished
 OnColorPicked
 OnColorPicker
@@ -4192,6 +4388,7 @@ OnViewMenuAboutToShow
 OnWhitespaceWarningClicked
 OnWhitespaceWarningClickedDelayed
 One of the client procedures is NULL pointer.
+OngoingNotify
 Only the default is available because the database could not be loaded.
 Only wrote %d (of %d) values when saving map!
 Open Asset Browser
@@ -4211,6 +4408,8 @@ Optional. After taking an OnFailed outflow, signal to any observers that this cu
 Optional. Type 'Any'. An associated value, e.g. the Entity Handle which is responsible for this Cursor. The Tag is defined by the unique combination of Name and Value.
 Options...
 Or R%d <- R%d || R%d
+Orientation
+Origin
 Original
 Original Size
 Original: %1x%2 Mip: %3
@@ -4220,6 +4419,7 @@ OriginalRawFileName
 Other Tools
 Out of memory allocating %d byte temp buffer.
 Outflow List
+OutflowWithRequirements_t
 Output aborted.
 OverlayProjectionDirection
 Override Inherited Variable...
@@ -4228,6 +4428,7 @@ Overwrite With Current
 P?isValid@QColor@@QEBA_NXZ
 P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
+PANEL_ID
 PC SM 4.0 (D3D10)
 PC SM 4.0 (VULKAN)
 PC SM 4.1 (D3D10.1)
@@ -4242,11 +4443,14 @@ PC_SM_4_1_VULKAN
 PC_SM_5_0
 PC_SM_5_0_VULKAN
 PC_SM_6_0_VULKAN
+PGDInstruction_t
 PLAT_
 POSITION
 PROGRAM
 PS_RENDER_STATE
 PS_RTX
+PULSE_CALL_ASYNC_FIRE
+PULSE_CALL_SYNC
 PURH
 P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
 PackBits
@@ -4256,7 +4460,12 @@ PackedBlobNormal
 PageName
 PageNumber
 PanelID
+Parent Map
+Parent Map Entity
 Parent Map: %s\n
+Parent VMDL
+Parent XML
+Parent XML Panel
 ParseEXRHeaderFromMemory failed! Error message: %s\n
 Parser encountered %i errors parsing compile targets expression "%s"\n
 Particle Binding
@@ -4268,6 +4477,7 @@ Paste (Overwrite)
 Paste From Clipboard
 Paste Material Attributes
 PasteColor
+Path
 Path Not Set.
 Path Overflow, must be less than 260 characters.
 PerVertexLighting
@@ -4287,12 +4497,14 @@ PhysicsSurfacePropertiesWet
 Pick
 PickCancelled
 PickColor
+Pitch
 PivotPaint
 PixarLog
 PlanarConfiguration
 Planarconfig tag value assumed incorrect, assuming data is contig instead of chunky
 Policy
 PopupClosed
+Position
 Predictor
 PredictorEncodeTile
 PredictorSetup
@@ -4308,6 +4520,7 @@ Previous
 Primary
 PrimaryChromaticities
 PrimaryToolBar
+Private
 Process Selector
 Program MD5 is out of date with features! %s\n
 Programmer Error! Static combo not loaded!\n
@@ -4319,6 +4532,34 @@ Property For Wet Areas:
 Pull From Global Browser
 PullSelectionFromGlobalBrowser
 Pulse domain which enables particle content to query leaf code to introspect game state.
+PulseApiFeature_t
+PulseBestOutflowRules_t
+PulseCursorExecResult_t
+PulseCursorID_t
+PulseCursorYieldToken_t
+PulseDomainValueType_t
+PulseGraphExecutionHistoryCursorDesc_t
+PulseGraphExecutionHistoryEntry_t
+PulseGraphExecutionHistoryNodeDesc_t
+PulseGraphInstanceID_t
+PulseInstructionCode_t
+PulseMethodCallMode_t
+PulseNodeDynamicOutflows_t
+PulseNodeDynamicOutflows_t::DynamicOutflow_t
+PulseObservableBoolExpression_t
+PulseRuntimeBlackboardReferenceIndex_t
+PulseRuntimeCallInfoIndex_t
+PulseRuntimeCellIndex_t
+PulseRuntimeConstantIndex_t
+PulseRuntimeDomainValueIndex_t
+PulseRuntimeEntrypointIndex_t
+PulseRuntimeInvokeIndex_t
+PulseRuntimeOutputIndex_t
+PulseRuntimeRegisterIndex_t
+PulseRuntimeStateOffset_t
+PulseRuntimeVarIndex_t
+PulseSelectorOutflowList_t
+PulseVariableKeysSource_t
 Push To Global Browser
 PushSelectionToGlobalBrowser
 Q?loadFromData@QPixmap@@QEAA_NAEBVQByteArray@@PEBDV?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
@@ -4382,8 +4623,14 @@ R?mimeTypes@QStandardItemModel@@UEBA?AVQStringList@@XZ
 R?modifiers@QKeyEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 RD11<
 RDEFH
+REINTERPRET_INSTANCE
+REQUIREMENT_FAIL
+REQUIREMENT_PASS
 RESIZED
+RETURN_VALUE
+RETURN_VOID
 RGB: #%02X%02X%02X
+RGBA
 RGBA\t%1\t%2\t%3\t%4
 RMouse
 RMouseDoubleClick
@@ -4395,7 +4642,9 @@ R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
+Radius
 Randomizes the order of items in the array (Knuth/Fisher-Yates Shuffle)
+Range
 Range Max
 Range Min
 Raw Output
@@ -4472,7 +4721,9 @@ Revert To Last Save
 Revert the material to disk contents.
 RevertAction
 RichTIFFIPTC
+Right
 Right Mouse (Average)
+Roll
 Round - round float up or down to integer
 Round Float
 Row pixels integer overflow (rowpixels %u)
@@ -4482,6 +4733,18 @@ S?openUrl@QDesktopServices@@SA_NAEBVQUrl@@@Z
 S?paintEngine@QImage@@UEBAPEAVQPaintEngine@@XZ
 S?paintEngine@QPixmap@@UEBAPEAVQPaintEngine@@XZ
 S?palette@QGuiApplication@@SA?AVQPalette@@XZ
+SCALE
+SCALE_INV
+SCALE_INV_VEC2
+SCALE_INV_VEC3
+SCALE_INV_VEC4
+SCALE_VEC2
+SCALE_VEC3
+SCALE_VEC4
+SET_BLACKBOARD_REFERENCE
+SET_VAR
+SET_VAR_ARRAY_ELEMENT_1D
+SET_VAR_OBSERVABLE
 SGILog
 SGILog compression cannot handle non-contiguous data
 SGILog compression supported only for %s, or raw data
@@ -4532,15 +4795,27 @@ SLIDER_VALTEXT_LEFT
 SLIDER_VALTEXT_RIGHT
 SMaxSampleValue
 SMinSampleValue
+SORT_BY_NUMBER_OF_VALID_CRITERIA
+SORT_BY_OUTFLOW_INDEX
 SP?isNull@QPixmap@@QEBA_NXZ
 SPV_KHR_storage_buffer_storage_class
 STANDIN: %1
 STAT
+SUB_FLOAT
+SUB_GAMETIME
+SUB_GAMETIME_FLOAT
+SUB_INT
+SUB_VEC2
+SUB_VEC3
+SUB_VEC3WS_VEC3
+SUB_VEC3WS_VEC3WS
+SUB_VEC4
 SUPPORTS_CS
 SUPPORTS_GS
 SV_ClipDistance
 SV_Position
 SV_Target
+SYNC_WAIT_FOR_COMPLETION
 S_BINDLESS_RUNTIME
 S_EXECUTION_REORDERING
 S_MOBILE
@@ -4581,11 +4856,13 @@ Save the material under a new name.
 SaveAction
 SaveAllAction
 SaveAsAction
+Scale
 Scale INV R%d <- R%d / R%d
 Scale R%d <- R%d * R%d
 ScrLk
 ScrToggle
 Seek error at scanline %lu
+Select Best Exit
 Select Material Reference
 SelectAllOnClickFocus
 SelectFirstItemAfterFilter
@@ -4633,6 +4910,7 @@ SetVarArrayElement1D V%d (%s) [ R%d ] <- R%d R%d
 SetWrapEnabled
 Setting up field info failed
 Settings File
+Shader
 Shader %s attribute "%s" has inconsistent value or type across multiple shaders of a feature combo! [
 Shader %s doesn't support compile target %s\n
 Shader '%s' - Group (%s) Sort Key Mismatch! First trumps. '%s' has (%d), '%s' has (%d).\n
@@ -4692,12 +4970,16 @@ Sign Float
 Sign Int
 Signal '%s' not compatible with slot '%s'
 Signature hook to fill out arguments for OnInterval
+SignatureOutflow_Continue
+SignatureOutflow_Resume
+Sine
 Sine of angle. Input in radians, output in radians
 Size Variance: 
 SizePolicy
 SizePolicy array must have two elements
 Skinned Model Mode: 
 SkinnedModelModeChanged
+Skip this node after the limit. Check Type does not apply, the limit will always be checked.
 Slider
 Slider2
 SliderValueChanged
@@ -4723,6 +5005,7 @@ Split an Angle into component parts.
 Sqr Float
 Sqr Int
 Sqrt
+Square
 Square root
 SrgbGammaToLinear
 SrgbLinearToGamma
@@ -4750,6 +5033,7 @@ Subrect Files (*.rect)
 SubrectDefinition
 SubrectDefinitionUV2
 SubsurfaceProfile
+Succeeded
 SupportsMappingDimensions
 Suppress Compilation
 SuppressVNotifyMessages
@@ -4760,6 +5044,7 @@ Swap
 SwapLayers
 SwitchToEngineWindow
 Swizzle operation only supports up to four channels.
+Synchronous - wait for the method to fully complete before returning
 System Material Attributes
 SystemAttributes
 T?parent@QStandardItemModel@@UEBA?AVQModelIndex@@AEBV2@@Z
@@ -4804,8 +5089,11 @@ Tangent of angle. Input in radians, output in radians
 TargetPrinter
 Test Mode Assert True
 TestCheckpoint: %s
+Testing script helpers.
 TexCoord
+Text Color
 TextProgramaticallyChanged
+Texture
 Texture 
 Texture (bound to variable)
 Texture Browser
@@ -4934,6 +5222,7 @@ VFX_RULE_TYPE_MAX
 VFX_RULE_TYPE_STATIC
 VFX_RULE_TYPE_UNKNOWN
 VFX_RULE_UNKNOWN
+VMDL
 VNOTIFY_DISABLE
 VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
@@ -4965,6 +5254,7 @@ Variable '%s' could not load reference path: %s [%s]\n
 Variable '%s' specified a circular (re-entrant) reference path: %s\n
 VariableChange_t
 VariableState
+Variables
 VariablesWindow
 Vector To World Vector
 VectorText
@@ -5009,11 +5299,17 @@ WDG,r3
 WIDGET DEBUGGER DELETING widget: 0x%p\n
 WW:9999WWW
 Wait Complete
+Wait For Completion
+Wait For Cursors With Tag
+Wait For Observable Condition
+Wait for a duration, firing a child cursor at regular (or randomized) intervals
 WarnTrailingWhitespace
 Warning (problem that doesn't prevent forward progress)
 Warning: This text ends with whitespace
 When False
 When True
+When we start waiting, how should we handle existing cursors?
+While active, activate a child state based on the results of a boolean condition. Any referenced variables must be marked as observable.
 WhiteLevel
 WhitePoint
 Widget Debugger
@@ -5524,6 +5820,7 @@ bool2
 bool3
 bool4
 bottom
+brightness
 brightness_offset
 buffer
 byteaddressbuffer
@@ -5541,6 +5838,17 @@ central_widget
 change
 checkstate
 chunkCount
+cl_aggregate_particles
+cl_particle_batch_mode
+cl_particle_fallback_base
+cl_particle_fallback_multiplier
+cl_particle_max_count
+cl_particle_retire_cost
+cl_particle_sim_fallback_base_multiplier
+cl_particle_sim_fallback_threshold_ms
+cl_particle_simulate
+cl_particles_dumplist
+cl_particles_dumpsimlist
 clamp
 clampu
 clampv
@@ -5628,11 +5936,13 @@ fj".T\CMek2>x
 flDegrees
 flDuration
 flElapsed
+flExecTime
 flExponent
 flFloat
 flFrac
 flInputA
 flInputB
+flLastReferenced
 flOutputA
 flOutputB
 flPercentage
@@ -5902,6 +6212,9 @@ import
 incorrect count for field "%s" (%u, expecting %u); tag ignored
 incorrect count for field "%s" (%u, expecting %u); tag trimmed
 index
+info
+inheritedVariableSources
+inheritedVariableValues
 int2
 int3
 int4
@@ -5911,6 +6224,12 @@ italic
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
 j\v?event@QTextBrowser@@MEAA_NPEAVQEvent@@@Z
 k"?value@QAbstractSlider@@QEBAHXZ
+kDecalBlood
+kDecalCloak
+kDecalDefault
+kDecalInvalid
+kDecalMax
+kDecalMin
 kQ?lineSpacing@QFontMetrics@@QEBAHXZ
 kX?setBlue@QColor@@QEAAXH@Z
 k\v?event@QTextEdit@@MEAA_NPEAVQEvent@@@Z
@@ -5939,19 +6258,96 @@ mX?setBlueF@QColor@@QEAAXN@Z
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m\n?dragEnterEvent@QPlainTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
 m_Bindings
+m_BlackboardReferences
+m_BlackboardResource
+m_CallInfos
+m_CallMethodID
+m_Cells
+m_Chunks
+m_Command
+m_Completed
+m_Condition
+m_Connection
+m_Constants
 m_Context
+m_DependentObservableBlackboardReferences
+m_DependentObservableVars
+m_DestinationFlowNodeID
+m_DomainValues
+m_EndTime
+m_EnumLabel
+m_EvaluateConnection
+m_EventOutflow
+m_ExpectedParamType
+m_ExportName
+m_FailOutflow
+m_FuncName
+m_GameBlackboard
+m_Gradient
+m_Group
+m_HiddenVariableUiNames
+m_HookName
+m_Input
 m_InputMacros
+m_InstructionDebugInfos
+m_Instructions
+m_InvokeBindings
+m_Layers
+m_NodeName
+m_OnInterval
+m_OnTrue
+m_OriginName
+m_OutflowList
+m_Outflows
+m_OutputConnections
+m_OutputIndex
+m_Outputs
+m_ParentMapName
+m_ParentXmlName
+m_PassOutflow
+m_PortName
+m_PublicOutputs
+m_RefFileEnding
+m_RefType
+m_ReferenceVariableIndex
+m_Registers
+m_RequiredRuntimeType
+m_RequirementNodeIDs
+m_SequencePointName
+m_Shuffle
+m_SourceEntity
+m_SourceOutput
+m_StartTime
 m_Stops
+m_SubGraph
+m_SubGroup
+m_TagName
 m_TagValue
+m_TargetEntity
+m_TargetInput
+m_TimelineEvents
+m_UiName
+m_UiOptions
+m_UnknownKeys
+m_UnyieldResume
+m_VariableNames
+m_Vars
+m_WaitComplete
+m_WhenFalse
+m_WhenTrue
 m_allVars
+m_alternateInput
 m_argIndexArray
 m_argTypeArray
 m_argValueArray
 m_attribIdx
 m_attributes
+m_bActive
 m_bAllowLayerOverride
+m_bAnd
 m_bBakedTwoSided
 m_bCanBatchWithDynamicShaderConstants
+m_bCompleteOnNextWake
 m_bConditionValue
 m_bDevShader
 m_bDrawLast
@@ -5960,78 +6356,155 @@ m_bGlobalsBDA
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
 m_bHasShaderProgram
+m_bHidden
+m_bInitialTextureInput
 m_bIsLayerConstant
+m_bIsLayeredShader
 m_bIsNotMatchedToMaterial
+m_bIsObservable
+m_bIsValid
+m_bLayerAllowOverride
+m_bLayerReference
+m_bLimitCountPasses
 m_bNoShadow
 m_bOnlyShadow
+m_bSelfReference
 m_bStaticCB
+m_bTagSelfWhenComplete
 m_bUseCompressedNormalTangent
 m_bUseShadowFastPath
 m_byteCodeData
 m_byteCodeIndex
 m_comboType
 m_constantBufferBindingArray
+m_default
+m_defaultColor
+m_defaultInput
 m_defaultInputTexture
+m_defaultSlider
+m_description
 m_dynamicComboArray
 m_dynamicComboIDs
 m_dynamicComboRenderState
 m_dynamicComboRuleArray
 m_dynamicComboVars
 m_dynamicComboVarsRef
+m_error
 m_expr
+m_expression
 m_externalMethodTargetGraph
+m_fDefaultSlider
 m_fl
 m_flDefault
+m_flPosition
 m_flSlopeIncoming
 m_flSlopeOutgoing
+m_flTimeFromPrevious
 m_flUiStep
+m_flWaitInterval
+m_flWaitIntervalHigh
+m_hBlackboardResource
 m_hash
 m_iFeatureIndex
 m_indexAndRegisterOffsetArray
 m_indexAndRegisterOffsetCount
 m_indexAndRegisterOffsetStart
+m_inheritedValue
+m_inheritedValueSource
 m_inputColorSpace
 m_inputProcessingCommand
 m_intDefault
 m_intMax
 m_intMin
+m_mapCellDesc
+m_mapCursorDesc
+m_max
+m_min
 m_mipProcessingCommand
 m_modeArray
+m_nAsyncCallMode
+m_nBlackboardReference
+m_nBlackboardReferenceIdx
 m_nByteCodeDataIdx
+m_nCallInfoIndex
+m_nCellIndex
 m_nChannelCount
 m_nChannelDesc
 m_nChannelInfoIndex
+m_nCheckType
+m_nChunk
+m_nCode
 m_nComboIndexValue
 m_nCompareValue
+m_nConstIdx
 m_nConstantBufferSize
 m_nContextStateAffectedByVariable
+m_nCurrentCount
 m_nCurrentWakeIndex
+m_nCursorStateBlockIndex
+m_nCursorsAllowedToRunParallel
+m_nCursorsAllowedToWait
+m_nD3DSemanticIndex
 m_nDescriptorSet
+m_nDesiredKillPriority
+m_nDestInstruction
+m_nDomainValueIdx
+m_nElements
 m_nExtraRuleData
 m_nFirstConstantElement
 m_nFirstRenderStateElement
+m_nFlowNodeID
 m_nGraphID
 m_nHashChar
 m_nInputTextures
+m_nInstanceID
+m_nInvokeBindingIndex
+m_nLastReadByInstruction
+m_nLayerId
+m_nLimitCount
 m_nMaxRes
 m_nMinPrecisionBits
+m_nNextIndex
+m_nNextShuffle
+m_nNodeID
 m_nOffs
+m_nReg
+m_nReg0
+m_nReg1
+m_nReg2
 m_nRegisterElements
 m_nRegisterOffset
 m_nSize
+m_nSortKeyGroup
+m_nSortKeySubGroup
+m_nSortKeyVariable
+m_nSrcChunk
+m_nSrcInstruction
+m_nTextureAutoFillCount
 m_nTypeSpecificBits
+m_nValueNodeID
+m_nVar
 m_nVariableBinding
 m_nVariableSourceMax
+m_nVersion
+m_nWrittenByInstruction
 m_offs
 m_outputColorSpace
 m_outputTextureFormat
 m_pCompiledExpression
 m_pCompiledUIVisibilityExpression
+m_pD3DSemanticName
+m_pSemantic
 m_pSourceString
+m_precision
 m_programData
 m_programHashes
+m_referencedExpressionPath
+m_referencedValuePath
 m_registerType
+m_rule
 m_ruleType
+m_sId
 m_shaderComboSourceType
 m_sourceIndex
 m_sourceType
@@ -6040,19 +6513,26 @@ m_staticComboData
 m_staticComboIDs
 m_staticComboRuleArray
 m_staticComboSettings
+m_step
+m_strFileName
 m_stringArray
 m_szAliasName
 m_szErrorString
+m_szName
 m_szShaderFallback
 m_szStaticCombo
 m_szTextureFileEnding
 m_szUiGroup
 m_textureChannelProcessorArray
+m_textureSuffix
+m_type
 m_uiType
 m_vGradientFogExponents
+m_value
 m_variableDescriptionArray
 m_variableDescriptionVersionHash
 m_vec
+m_vecHistory
 m_vsInputSignatureArray
 m_vsInputSignatureIndexArray
 main
@@ -6092,19 +6572,25 @@ materials/tools/wireframe_vertex_color.vmat
 materials/tools/wireframe_vertex_color_translucent.vmat
 materials\default\default
 maxValue
+maximum
 maxres
 maxresmobile
 medium
 menu
 menuAction
 menus
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 met.dll
 met_shaders
 minValue
+minimum
 minimum_encode_quality
 mipAlgorithmName
 mip_algorithm
 mip_filter_strength
+model_default_preview_sequence_name
 modes
 monitor_pid
 ms_6_5
@@ -6112,17 +6598,24 @@ must be either LogLUV or LogL
 n$Kx
 nAlpha
 nColumn
+nCount
+nCursorID
 nDelayInMS
 nDenominator
+nEditorID
 nFirst
+nIndex
 nKillPriority
+nLastValidEntryIdx
 nMaxElements
 nMode
 nNumerator
 nQuality
+nRetiredAtNodeID
 nRow
 nSecond
 nSliderAction
+nSpawnNodeID
 nTabIndex
 nToolId
 nValue
@@ -6137,6 +6630,7 @@ node_name
 nolod
 nomip
 none 
+normalize
 normalize_safe
 notepad.exe
 null VP8Io passed to VP8GetHeaders()
@@ -6155,6 +6649,7 @@ pCurrentFocusWidget
 pDescription
 pEvent
 pFilter
+pItem
 pMouseEvent
 pPrevFocusWidget
 pTagName
@@ -6163,6 +6658,7 @@ pWheelEvent
 p\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
 p\v?event@QWidget@@MEAA_NPEAVQEvent@@@Z
 p`?type@QStandardItem@@UEBAHXZ
+particle_debug_creation_filter
 paste
 pet_preview_gravity
 pet_preview_underwater
@@ -6186,6 +6682,11 @@ quiet
 rQ?lineTo@QPainterPath@@QEAAXNN@Z
 r\tV_strspn
 r\vpp
+r_freezeparticles
+r_limit_particle_job_duration
+r_particle_timescale
+r_threaded_particle_creation
+r_threaded_particles
 rad2deg
 radians
 random
@@ -6225,6 +6726,7 @@ scanline
 screenWindowCenter
 screenWindowWidth
 scripts/activity_modifier_weights.txt
+scripts/detail_prop_types.vdata
 scroll_widget
 selected
 self
@@ -6256,6 +6758,8 @@ stacked
 stacked_one
 std::pair
 step
+strBindingName
+strCellDesc
 stretch
 strip
 strips
@@ -6271,6 +6775,7 @@ t\t?addFile@QIcon@@QEAAXAEBVQString@@AEBVQSize@@W4Mode@1@W4State@1@@Z
 tabStyle
 tabify
 tabs
+tagName
 tagValue
 tangent
 tangentu_signv
@@ -6297,7 +6802,13 @@ toolbarArea
 toolhud_enable
 tools/colors/shared_colors.txt
 tools/images/pulse_editor/cursor_kill.png
+tools/images/pulse_editor/cursor_tag.png
+tools/images/pulse_editor/cursor_wait_zone.png
+tools/images/pulse_editor/inflow_statecell.png
 tools/images/pulse_editor/kill_cursor_with_tag.png
+tools/images/pulse_editor/node_timer.png
+tools/images/pulse_editor/observable_variable_listener.png
+tools/images/pulse_editor/requirements.png
 tools/keybindings/global_key_bindings.txt
 tools/met/met_configuration.txt
 tools/met/met_shaderconfig.kv3
@@ -6308,6 +6819,7 @@ t|AO
 uV?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
 u\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
 u\v?eventFilter@QAbstractItemView@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
+unFlags
 underline
 unexpected count for field "%s", %u, expected 2; ignored
 unnamed_%2.2d
@@ -6326,6 +6838,7 @@ vbox
 vcenter
 vdata_editor
 vdata_outliner_name_expr
+vecAncestorCursorIDs
 vecValue
 vecValueA
 vecValueB
@@ -6371,6 +6884,9 @@ z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 z\tV_tand
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
+{ className = 'IsControlFlowNode' }
+{ className = 'IsStateNode' item_factory = 'BooleanSwitchState' }
+{ className='IsControlFlowNode AllOutflowsInSpecialSection IsSelectorNode' create_special_outflows_section=true }
 {Y?setFixedPitch@QFont@@QEAAX_N@Z
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z

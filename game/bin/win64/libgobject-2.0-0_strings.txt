@@ -352,6 +352,8 @@ SetThreadpoolTimer
 SetThreadpoolWait
 Source
 Source Property
+Target
+Target Property
 The binding flags
 The property %s:%s is deprecated and shouldn't be used anymore. It will be removed in a future version.
 The property on the source to bind
@@ -1270,6 +1272,7 @@ swapped_signal::
 swapped_signal_after::
 sync-create
 tagging type '%s' as abstract after class initialization
+target
 target-property
 target_property != NULL
 the '%s' specification for type '%s' is too long or invalid

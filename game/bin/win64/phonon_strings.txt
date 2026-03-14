@@ -10929,6 +10929,7 @@ Dd;K=
 Dd;V
 De;a
 DeC;Y
+Debug
 Decompressed energy field has values > 1, silencing.
 Dee;5
 Df<w
@@ -12926,6 +12927,7 @@ Lb:v
 Ld0:
 LdD<
 Ldy<x4
+Left
 Level Zero raytracing support missing
 Lf:4
 LgF;
@@ -13333,6 +13335,7 @@ NA:o
 NA;4*
 NA;Re0
 NA;i
+NAME
 NB;9*
 NDf=
 NE9)
@@ -14499,6 +14502,7 @@ Ri;\tc
 Ri;q
 RiF7B4
 Rif=s
+Right
 Rjb<
 Rk/<r
 Rl:Z
@@ -15124,6 +15128,7 @@ Tn1;
 Tn`z
 To9(
 To:'C
+Tolerance
 Total size of data transferred:
 Total time (100 (%%)):
 Total time spent                                                 :
@@ -18671,6 +18676,7 @@ ecj;2
 ed<9i2
 eeu<M
 ef$;TE
+effect
 effectSettings
 effectSettings->hrtf
 effectSettings->irSize
@@ -22507,6 +22513,7 @@ removeProbeBatch
 reorder
 reordering problem
 residual stopping test and the stopping test for the maximal number of
+result
 result.center.x
 result.center.y
 result.center.z

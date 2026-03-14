@@ -105,8 +105,12 @@
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
 APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!\n
+Activate diffcheck system.
+Actually show diffcheck results.
+AnimParamType_t
 C:\buildworker\csgo_rel_win64\build\_build_\game\host\_vpc_host_csgo\default\win64\_msvc_\Retail\host.pdb
 C:\buildworker\csgo_rel_win64\build\src\game\host\animscripts_base.h
+CAnimScriptBase
 CAnimScriptParam
 CAnimScriptParam<float>::Bind
 CGameModelInfo::GetModelIndex() Lazy loading mode
@@ -119,6 +123,7 @@ Data_Branch1zBranch2x
 Data_Branch2yz
 DebugDrawQueueManager001
 DotaMapUtils001
+EmptyTestScript
 EntitySubclassUtilsV001
 Entry %s was not found in surfaceproperties_footsteps.txt\n
 Error loading %s: %s\n
@@ -135,6 +140,7 @@ IGameSystem::PostInit( %-80s ) %8.3f msec
 IND)ind)"
 LightmapUV
 LightmapUVW
+MovementGaitId_t
 OverlayProjectionDirection
 P08@J
 P08J0
@@ -153,7 +159,10 @@ RSDS,
 ResponseRulesCache001
 SaveRestoreDataVersion001
 Shared memory space %s (%i) still has %i references.\n
+Show diff only.
+Show diff with matching filter substring only.
 SinglePlayerSharedMemory001
+SurfacePropertiesList
 System %s failed to init\n
 TanFrameQuat
 Unexpected end of string.
@@ -175,6 +184,11 @@ blendweights
 can't force demo version '%s', no such version name\n
 compressedtangentframe
 curvature
+diffcheck
+diffcheck_playerslot
+diffcheck_spew
+diffcheck_spew_diff_filter
+diffcheck_spew_diff_only
 f_test
 fast
 footstep_modifier
@@ -188,11 +202,18 @@ m_bDrawLast
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
 m_bIsNotMatchedToMaterial
+m_bIsValid
 m_bNoShadow
 m_bOnlyShadow
 m_bUseCompressedNormalTangent
 m_bUseShadowFastPath
+m_hTest
+m_sId
 medium
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
+model_default_preview_sequence_name
 optionallycompressedtangentframe
 p08@H^
 p0j0s
@@ -202,6 +223,7 @@ runleft
 runright
 scripts/surfaceproperties_footsteps.txt
 slow
+surfacePropertyName
 tangent
 tangentu_signv
 texcoord

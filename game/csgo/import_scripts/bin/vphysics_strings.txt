@@ -336,6 +336,7 @@ Angle-premerge-
 Angle-premerge-with-random
 Angular Drag: %.2f, %.2f, %.2f (factor %.2f)\n
 Approximate
+Asleep
 Attached core twice!!!\n
 AutoTransmission
 Awake
@@ -372,12 +373,14 @@ Debug!
 DebugTextureInfo001
 Degenerate Triangle\n
 Deleted NULL vphysics object\n
+Disabled
 Distance-roundoff
 DoubleVal
 ERRONEOUS
 ERRONEOUS and NEIGHBORING FACETS to output\n
 ERROR: 
 Eb2]A=
+Enabled
 Error-roundoff
 EventSystem001
 F0$?3=1
@@ -549,6 +552,7 @@ Set Gravity %.1f (%.3f tolerance)\n
 SetEnvironmentVariableA
 Simple material
 State: %s, Collision %s, Motion %s, %sFlags %04X (game %04x, index %d)\n
+Static
 Svj>
 System of %d constraints\n
 TCone-stop
@@ -731,6 +735,7 @@ asleepSinceCreation
 at error exit
 attached to %d controllers\n
 attachedRefXform
+audioHardMinVelocity
 audioHardnessFactor
 audioReflectivity
 audioRoughnessFactor
@@ -765,6 +770,7 @@ bFbx
 ball_socket
 base
 best merges used centrum instead of vertices
+bodyMassScale
 boost
 boostDelay
 boostDuration
@@ -781,7 +787,9 @@ brakeMaterialIndex
 brakeSteeringRateFactor
 brakefactor
 brakematerial
+break
 build hull statistics
+bulletimpact
 c6`c
 c:\buildslave\csgo_trunk_win32\build\src\ivp\ivp_physics\ivp_time_event.hxx
 c:\buildslave\csgo_trunk_win32\build\src\vphysics\Release\vphysics.pdb
@@ -793,6 +801,7 @@ center point
 center:
 centrums frozen due to a wide merge
 centrums frozen due to extra vertices
+child
 clearly convex
 climbable
 collideType
@@ -805,6 +814,7 @@ concave half ridges in output
 concave ridge
 concave ridges in getmergeset
 constant
+constraint
 constraintPosition
 constraintToAttached
 constraintToReference
@@ -834,6 +844,7 @@ cycles of facets merged into coplanar horizon
 damageLossPercentPerPenetration
 damagemodifier
 dampFactor
+dampening
 damping
 degenerate facets due to dropped neighbors
 degenerate hyperplanes recomputed with gaussian elimination
@@ -842,6 +853,7 @@ degreesFast
 degreesSlow
 delaunay
 deleted ridges due to renamed vertices
+density
 determinants computed (area & initial hull)
 determinants not computed because vertex too low
 difference in max_outside at final check
@@ -860,6 +872,7 @@ distance tests for statistics
 distance tests to report minimum vertex
 do_constraint_system: Couldn't invert rot matrix!\n
 double_null
+drag
 dragAxisAreas
 dragCoefficient
 dragEnabled
@@ -869,6 +882,7 @@ duplicated ridges with flipped facets
 dustCloud
 dustcloud
 e-CS
+elasticity
 empty horizon
 enable PIX counters
 enable some additional SIMD/VMX128 optimizations in physics and collision
@@ -898,6 +912,7 @@ for facets and their normals, neighbor and vertex sets
 for input points and outside and coplanar sets
 for ridges and their vertex sets
 for vertices and their neighbor sets
+forceLimit
 frictionScale
 frictionscale
 from p%d to f%d\n
@@ -920,11 +935,15 @@ hb?O2
 hidetargetid
 highPitchOcclusion
 hinge
+hingeAxis
 horizon
 horizon facets merged into new facets
 horsepower
 id@j>
 ij?P
+impactHardThreshold
+impacthard
+impactsoft
 incidence
 index
 inertia
@@ -940,6 +959,7 @@ interior
 intersections failed to find a redundant vertex
 intersections found redundant vertices
 ipion 99/07/10
+isActive
 isAsleep
 isAutoTransmission
 isPhysicallyControlled
@@ -1053,6 +1073,7 @@ n}in
 o3fW
 objectPosition
 offFile
+offset
 ofn}>
 onlyAngularLimits
 onlyStretch
@@ -1542,6 +1563,7 @@ ridge with multiple neighbors
 ridges created altogether
 ridges for f
 ridges with multiple neighbors
+rolling
 rollingdrag
 rotInertia
 rotInertiaLimit
@@ -1555,6 +1577,9 @@ savedFlags
 savedMass
 savedMaterial
 savedRI.k
+scrapeRoughThreshold
+scraperough
+scrapesmooth
 searches of all points for initial simplex
 secondsToArrival
 selfcollisions
@@ -1604,9 +1629,12 @@ steeringRestRateSlow
 stepleft
 stepright
 stiff_spring
+strain
+strength
 summary information
 surfaceSize
 surfaceplane
+surfaceprop
 suspension
 sys:actuator
 sys:airboat
@@ -1627,6 +1655,7 @@ tLVv
 targetPosition
 targetRotation
 teleportDistance
+thickness
 throttleSteeringRestRateFactor
 throttleTime
 tiltForce
@@ -1636,6 +1665,7 @@ tiltforceheight
 torque
 torqueBoost
 torqueFactor
+torqueLimit
 torqueboost
 torquefactor
 total area of facets
@@ -1664,6 +1694,7 @@ vehicle_steeringparams_t
 vehicle_suspensionparams_t
 vehicle_wheelparams_t
 vehicleparams_t
+velocity
 vertex intersections for locating redundant vertices
 vertices created altogether
 vertices deleted by degenerate facet
@@ -1709,6 +1740,8 @@ wheelsNotInContact
 wheelsPerAxle
 wheelsperaxle
 with
+worldAxisDirection
+worldPosition
 xfriction
 xmax
 xmin

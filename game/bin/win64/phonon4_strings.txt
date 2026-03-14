@@ -1165,6 +1165,7 @@ ALBUM
 ARTIST
 Accessibility
 AddonInterface0.2.phonon.kde.org
+Angles
 AspectRatio
 AspectRatio16_9
 AspectRatio4_3
@@ -1399,6 +1400,7 @@ backendVersion
 backendWebsite
 belgian
 bool __cdecl Phonon::FactoryPrivate::createBackend(void)
+brightness
 britain
 bufferStatus(int)
 c\r?changeEvent@QComboBox@@MEAAXPEAVQEvent@@@Z

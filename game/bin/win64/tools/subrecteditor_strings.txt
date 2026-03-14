@@ -2058,6 +2058,7 @@ Checkout Failed
 Checkout Failed.
 Checkout was NOT successful! To save you must select a different file.
 Checkout?
+Children
 Class
 Clear History
 Clear Recent File List
@@ -2106,6 +2107,7 @@ Delete Rectangles
 Delete Selected
 Delete Widget
 Deleting autosave file: %s\n
+Description
 Description cannot be empty.
 Designable
 Desktop: %s\n
@@ -2170,6 +2172,7 @@ Failed to unserialize document data from kv3 data:\n%s
 Failed to write file: %s\n
 Fast Asset Search
 FastAssetPicked
+File
 File Opened by Other User
 File Opened by Other Users
 File opened with errors
@@ -2214,6 +2217,7 @@ I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
 IAsset*
 IAssetSelectionListener
 IBindTarget
+ICON
 IHelpChangeListener
 IToolFrameListener
 IToolFrameworkAudioSettingsListener
@@ -2263,6 +2267,7 @@ Last perforce error was: "%s"\n
 LastLoadDirectory
 LastSaveDirectory
 LaunchEngineTool
+Left
 Load Autosave On Crash
 LoadRecentFile
 Loaded '%1':\nwith the following errors:\n%2
@@ -2278,6 +2283,7 @@ M\t?canDropMimeData@QAbstractProxyModel@@UEBA_NPEBVQMimeData@@W4DropAction@Qt@@H
 M\v?event@QListWidget@@MEAA_NPEAVQEvent@@@Z
 MarkSettingsDirty
 MaterialPicker
+Materials
 Max Autosave Space 2
 Max Saves Per Map
 Maximum
@@ -2300,6 +2306,7 @@ N?height@QImage@@QEBAHXZ
 N?height@QPixmap@@QEBAHXZ
 N?index@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 NO COMMAND TARGET
+NONE
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 N\v?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
 Never close the group automatically (used to indicate an error like the process exiting unexpectedly)
@@ -2394,6 +2401,7 @@ OpenAssetBrowser
 OpenBuildWatch
 OpenMutexA
 OpenVConsole
+Orientation
 Other Tools
 P?isValid@QColor@@QEBA_NXZ
 P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
@@ -2406,6 +2414,7 @@ PgDn
 PgUp
 Policy
 PopupClosed
+Position
 Preferred
 Preview Texture:
 PreviousSession
@@ -2500,6 +2509,7 @@ Reverted %d file(s).
 Reverted %d file(s).  %d file(s) were not reverted!
 Reverting %d file(s).  Please wait...
 Revision
+Right
 S?name@QScreen@@QEBA?AVQString@@XZ
 S?openUrl@QDesktopServices@@SA_NAEBVQUrl@@@Z
 S?orientation@QScreen@@QEBA?AW4ScreenOrientation@Qt@@XZ
@@ -2586,6 +2596,7 @@ T?pos@QMouseEvent@@QEBA?AVQPoint@@XZ
 TW?restoreOverrideCursor@QGuiApplication@@SAXXZ
 T\t?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
 Tabbed Mode
+Text Color
 TextProgramaticallyChanged
 The autosave directory does not exist and could not be created.\nThe autosave feature will be disabled.
 The autosave feature will be disabled
@@ -2978,6 +2989,7 @@ i\f?forward@QTextBrowser@@UEAAXXZ
 i\r?enumerator@QMetaProperty@@QEBA?AVQMetaEnum@@XZ
 i\r?horizontalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
 i\v?event@QTableWidget@@MEAA_NPEAVQEvent@@@Z
+info
 inset
 italic
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
@@ -2993,16 +3005,20 @@ lifespan
 loud
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m_Bindings
+m_Command
 m_Context
+m_Input
 m_InputMacros
 m_bShutdown
 mapped
+materials
 menu
 menuAction
 menus
 monitor_pid
 nCheckState
 nDelayInMS
+nIndex
 nToolId
 nX?setBold@QFont@@QEAAX_N@Z
 n\n?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
@@ -3017,6 +3033,7 @@ pAssetMenuObject
 pCurrentFocusWidget
 pEvent
 pFilter
+pItem
 pPrevFocusWidget
 pV?read@QImageReader@@QEAA?AVQImage@@XZ
 pWidget
@@ -3027,6 +3044,7 @@ portrait
 portrait (inverted)
 preview_material
 primary
+properties
 q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
 q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 quiet

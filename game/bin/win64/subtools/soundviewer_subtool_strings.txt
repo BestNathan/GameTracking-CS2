@@ -763,6 +763,7 @@ OnPaused
 OnSoloButtonChanged
 OnValueChanged
 Pause History
+Peak
 Play Soundevent: 
 PlayExecSelected
 PlaySelected
@@ -782,6 +783,7 @@ Resume History
 Running.
 S?palette@QGuiApplication@@SA?AVQPalette@@XZ
 Samples: %1
+Solo
 Solo Active Track
 Solo Track : 
 Sound Event filter:
@@ -906,8 +908,10 @@ distance
 duck trig
 ducker
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
+end time
 entity index
 entity: position (dist)
+event type
 f\n?dragEnterEvent@QAbstractScrollArea@@MEAAXPEAVQDragEnterEvent@@@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
 game:tools/images/showbudgettool/start.png
@@ -919,6 +923,7 @@ h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 i\r?horizontalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
 i\v?event@QTableWidget@@MEAA_NPEAVQEvent@@@Z
+item
 itemChanged
 keyPressEvent
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
@@ -936,6 +941,7 @@ matches
 mixgroup
 mute
 nColumn
+nIndex
 nRow
 n\v?event@QToolButton@@MEAA_NPEAVQEvent@@@Z
 newName
@@ -954,6 +960,7 @@ q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
 solo
 soundviewer_subtool
 soundviewer_subtool.dll
+start time
 substring
 subvoiceidx
 time : duration

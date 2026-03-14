@@ -673,6 +673,7 @@ Pattern
 PostScript (post) table missing
 RAN OUT OF ROOM
 RSDSC
+Regular
 ReleaseDC
 RemoveFontMemResourceEx
 SANITIZE
@@ -1186,6 +1187,7 @@ uruG
 utav
 verticallayout
 void __cdecl hb_shape_plan_plan(struct hb_shape_plan_t *,const struct hb_feature_t *,unsigned int,const char *const *)
+weight
 xppwpp
 xpxxxx
 z?aUY

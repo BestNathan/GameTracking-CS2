@@ -747,6 +747,7 @@ RightClicked
 S?name@QColor@@QEBA?AVQString@@XZ
 S?palette@QGuiApplication@@SA?AVQPalette@@XZ
 Save File
+Set Color
 Set Colors
 ShowContextMenu
 Started (pid=%llu): '%s'!\n
@@ -894,6 +895,7 @@ m_fgColor=
 m_label=
 m_type=
 nHeight
+nIndex
 nWidth
 nX?setBold@QFont@@QEAAX_N@Z
 n\n?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z

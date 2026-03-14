@@ -134,6 +134,7 @@ $$$$$$$HighlyUnlikelyPathForInitializationPurposes#######
 0:Off, 1:Any, 2:Sync only
 0:Off, 1:On
 0:Off, 1:Timing, 2:Completions, 3:Late Completions, 4:Creations/Purges, -1:All
+0:Off, 1:Warn main thread, 2:Warn other threads
 125432575
 125436057
 125438072
@@ -268,6 +269,7 @@ ChunkMd5Master
 ChunkMd5Second
 CkeyValuesTokenReader::SeekBackOneToken: No tokens read yet
 Claimed
+Clear the list of files that have been opened.
 Closing pack file with %d open files!\n
 ConVar(%s) defined with infinite float value (%s)\n
 Couldn't open .bsp %s for embedded pack file check\n
@@ -353,6 +355,7 @@ LOWVIOLENCE
 La8i
 Last Md5 Value %s Should be %s \n
 Le?2
+Length
 LoadFromBuffer: missing {
 LoadLibraryExA
 Loading VPK file hashes for pure server operation.\n
@@ -409,11 +412,13 @@ ResourceSystem004
 SHELL32.dll
 STAR_System001
 SceneSystem_001
+Set fs_report_long_reads 1 before loading to use this. Prints a list of files that were opened more than once and ~how long was spent reading from them.
 Set the async filesystem mode (0 = async, 1 = synchronous)
 SetEnvironmentVariableA
 ShouldUseNewAssertDialog
 Simulate a delay of up to a set msec per file operation
 Size mismatch determining size of signed data block (%d vs %d)
+Size of per file buffers. 0 for none
 StackToolsNotify_LoadedLibrary
 String: "%s"; RemoveDotSlashes: "%s"\n
 Submit:%5dms AsyncDuration:%5dms Tag:%d Thread:%8.8x Size:%7d %s%s
@@ -432,6 +437,7 @@ Unable to rename %s to %s!\n
 Unclaimed
 Unknown read error %d\n
 Unknown version %d for vpk %s
+Use native FS or STDIO
 VBAllocTracker001
 VBaseFileSystem011
 VDataCache003
@@ -536,14 +542,21 @@ extraFieldLength
 failed to read %d bytes\n
 fileCommentLength
 fileNameLength
+filesystem_buffer_size
+filesystem_max_stdio_read
+filesystem_native
+filesystem_report_buffered_io
 filesystem_stdio.cpp
 filesystem_stdio.dll
+filesystem_unbuffered_io
 filesystem_use_overlapped_io
 filetime
 filetracker.cpp
 fs_allow_unsafe_writes
+fs_clear_open_duplicate_times
 fs_debug
 fs_debug: 
+fs_dump_open_duplicate_times
 fs_fios_cancel_prefetches
 fs_fios_flush_cache
 fs_fios_prefetch_file
@@ -551,9 +564,11 @@ fs_fios_prefetch_file_in_pack
 fs_fios_print_prefetches
 fs_monitor_read_from_pack
 fs_open_for_write
+fs_report_long_reads
 fs_report_long_reads_only_mainthread
 fs_report_sync_opens_callstack
 fs_show_pure_state
+fs_warning_mode
 g_ClockSpeed
 g_ClockSpeedMicrosecondsMultiplier
 g_tm_api
@@ -576,9 +591,11 @@ m1WY$
 maps%c%s
 maps%car_shoots%s
 maps\
+materials
 mkdir "%%fs_target%%"\n
 mkdir "%%fs_target%%\bin"\n
 mkdir "%s"\n
+models
 nCentralDirectoryEntries_ThisDisk
 nCentralDirectoryEntries_Total
 np?z 
@@ -597,6 +614,7 @@ set binsrc="%s"\n
 set fs_target="%s"\n
 setlocal\n
 signature
+sound
 startOfCentralDirOffset
 stat
 tLVv
